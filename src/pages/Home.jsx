@@ -59,29 +59,29 @@ export default function Home() {
             <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-[30px] justify-items-center px-4">
 
              <div className="bg-white h-[500px] w-full max-w-[330px] rounded-[20px] mt-[30px]">
-                <img className="rounded-[20px] w-[300px] h-[230px] m-[15px]" src="./src/images/marriage.png" alt="" />
-               <div className="flex"><img className="h-[80px] w-[80px] ml-[30px]" src="./src/images/wedLogo.png" alt="" /><p className="font-[Qwigley] text-[45px] pt-[10px] font-bold " >Marriage</p></div> 
+                <img className="rounded-[20px] w-[300px] h-[230px] m-[15px]" src="/images/marriage.png" alt="" />
+               <div className="flex"><img className="h-[80px] w-[80px] ml-[30px]" src="/images/wedLogo.png" alt="" /><p className="font-[Qwigley] text-[45px] pt-[10px] font-bold " >Marriage</p></div> 
                 <p className="text-[18px] font-[arial] pt-[5px] pl-[20px] ">Spectacular venues and traditional Himachali Dham</p>
                 <a className="text-[goldenrod] font-[cursive] text-[22px] flex font-bold pl-[20px] pt-[38px]" href="/services">Learn More <ArrowRight className="pt-[7px]"/></a>
              </div>
 
              <div className="bg-white h-[500px] w-full max-w-[330px] rounded-[20px] mt-[30px]">
-                <img className="rounded-[20px] w-[300px] h-[230px] m-[15px]" src="./src/images/corporate.png" alt="" />
-               <div className="flex"><img className="h-[80px] w-[80px] ml-[20px]" src="./src/images/corpLogo.png" alt="" /><p className="font-[Qwigley] text-[40px] pt-[10px] font-bold " >Corporate</p></div> 
+                <img className="rounded-[20px] w-[300px] h-[230px] m-[15px]" src="/images/corporate.png" alt="" />
+               <div className="flex"><img className="h-[80px] w-[80px] ml-[20px]" src="/images/corpLogo.png" alt="" /><p className="font-[Qwigley] text-[40px] pt-[10px] font-bold " >Corporate</p></div> 
                 <p className="text-[18px] font-[arial] pt-[5px] pl-[15px] ">Executive parties and dinners held with welcoming to retirement events all included. </p>
                 <a className="text-[goldenrod] font-[cursive] text-[22px] flex font-bold pl-[20px] pt-[22px] " href="/services">Learn More <ArrowRight className="pt-[7px]"/></a>
              </div>
 
             <div className="bg-white h-[500px] w-full max-w-[330px] rounded-[20px] mt-[30px]">
-                <img className="rounded-[20px] w-[300px] h-[230px] m-[15px]" src="./src/images/Party.png" alt="" />
-               <div className="flex"><img className="h-[80px] w-[80px] ml-[10px]" src="./src/images/partyLogo.png" alt="" /><p className="font-[Qwigley] text-[40px]  font-bold " >Birthdays & Anniversaries</p></div> 
+                <img className="rounded-[20px] w-[300px] h-[230px] m-[15px]" src="/images/Party.png" alt="" />
+               <div className="flex"><img className="h-[80px] w-[80px] ml-[10px]" src="/images/partyLogo.png" alt="" /><p className="font-[Qwigley] text-[40px]  font-bold " >Birthdays & Anniversaries</p></div> 
                 <p className="text-[18px] font-[arial]  pl-[15px]">Milestone birthday celebrations and elegant anniversary dining.</p>
                 <a className="text-[goldenrod] font-[cursive] text-[22px] flex font-bold pl-[20px] pt-[12px]" href="/services">Learn More <ArrowRight className="pt-[7px]"/></a>
              </div>
 
              <div className="bg-white h-[500px] w-full max-w-[320px] rounded-[20px] mt-[30px]">
-                <img className="rounded-[20px] w-[300px] h-[230px] m-[10px]" src="./src/images/Celebration.png" alt="" />
-               <div className="flex"><img className="h-[80px] w-[80px] ml-[10px]" src="./src/images/celebLogo.png" alt="" /><p className="font-[Qwigley] text-[40px]  font-bold " >Indian Event Celebration</p></div> 
+                <img className="rounded-[20px] w-[300px] h-[230px] m-[10px]" src="/images/Celebration.png" alt="" />
+               <div className="flex"><img className="h-[80px] w-[80px] ml-[10px]" src="/images/celebLogo.png" alt="" /><p className="font-[Qwigley] text-[40px]  font-bold " >Indian Event Celebration</p></div> 
                 <p className="text-[18px] font-[arial]  pl-[15px] ">Traditional seating layouts tailored to mountain themes.</p>
                 <a className="text-[goldenrod] font-[cursive] text-[22px] flex font-bold pl-[20px] pt-[15px]" href="/services">Learn More <ArrowRight className="pt-[7px]"/></a>
              </div>
@@ -100,12 +100,12 @@ export default function Home() {
   {/* SINGLE RESPONSIVE GRID */}
   <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-10 justify-items-center">
     {[
-      { img: "./src/images/juices.png", title: "Juices & Mocktails", count: "500+" },
-      { img: "./src/images/dishes.png", title: "Indian Dishes", count: "100+" },
-      { img: "./src/images/sweets.png", title: "Indian Sweets", count: "100+" },
-      { img: "./src/images/fastFood.png", title: "Fast Food Options", count: "200+" },
-      { img: "./src/images/dessert.png", title: "Dessert Types", count: "50+" },
-      { img: "./src/images/liveCounter.png", title: "Live Counters", count: "50+" },
+      { img: "/images/juices.png", title: "Juices & Mocktails", count: "500+" },
+      { img: "/images/dishes.png", title: "Indian Dishes", count: "100+" },
+      { img: "/images/sweets.png", title: "Indian Sweets", count: "100+" },
+      { img: "/images/fastFood.png", title: "Fast Food Options", count: "200+" },
+      { img: "/images/dessert.png", title: "Dessert Types", count: "50+" },
+      { img: "/images/liveCounter.png", title: "Live Counters", count: "50+" },
     ].map((item, index) => (
       <div
         key={index}
@@ -133,7 +133,7 @@ export default function Home() {
            <div className="relative min-h-screen mb-[30px]">
 
   {/* Background */}
-  <div className="absolute inset-0 bg-[url('./src/images/backImage.png')] bg-cover bg-center"></div>
+  <div className="absolute inset-0 bg-[url('/images/backImage.png')] bg-cover bg-center"></div>
 
   {/* Dark overlay */}
   <div className="absolute inset-0 bg-black/60"></div>
@@ -179,15 +179,15 @@ export default function Home() {
 
                <div className="grid grid-cols-1 lg:grid-cols-3 gap-[20px] mt-[15px] px-4 justify-items-center">
 
-               <div className="bg-[url('./src/images/post.png')] h-[350px] w-full max-w-[470px] bg-cover bg-center">
+               <div className="bg-[url('/images/post.png')] h-[350px] w-full max-w-[470px] bg-cover bg-center">
                <p className="text-[16px] font-[cursive] w-[75%] pt-[70px] pl-[150px]">"The food was exceptional and every guest appreciated the quality and presentation. The team handled everything professionally, making our family function completely stress-free."</p>
                </div>
 
-               <div className="bg-[url('./src/images/post.png')] h-[350px] w-full max-w-[470px] bg-cover bg-center">
+               <div className="bg-[url('/images/post.png')] h-[350px] w-full max-w-[470px] bg-cover bg-center">
                <p className="text-[16px] font-[cursive] w-[75%] pt-[70px] pl-[150px]">"We booked them for our daughter's wedding, and they exceeded all expectations. From the menu variety to the service, everything was perfectly organized."</p>
                </div>
 
-               <div className="bg-[url('./src/images/post.png')] h-[350px] w-full max-w-[470px] bg-cover bg-center">
+               <div className="bg-[url('/images/post.png')] h-[350px] w-full max-w-[470px] bg-cover bg-center">
                <p className="text-[16px] font-[cursive] w-[75%] pt-[70px] pl-[150px]">"Excellent food, punctual service, and a very cooperative staff. Our corporate event was a huge success thanks to their attention to detail and hospitality."</p>
                
                

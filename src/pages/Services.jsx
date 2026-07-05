@@ -13,7 +13,7 @@ export default function Services(){
         <div className="relative">
             <div className="bg-black h-[60vh]">
 
-                <div className="absolute inset-0 bg-[url('./src/images/table.png')] lg:bg-contain bg-cover bg-center bg-no-repeat lg:bg-right h-[60vh] ">
+                <div className="absolute inset-0 bg-[url('/images/table.png')] lg:bg-contain bg-cover bg-center bg-no-repeat lg:bg-right h-[60vh] ">
                 <div className="absolute inset-0 bg-black/60 lg:bg-black/10" ></div>
                 
                    
@@ -80,7 +80,7 @@ export default function Services(){
                         <p className="flex text-amber-400 text-[30px] font-[Prata] text-center "> <div className="h-[2px] w-[100px] bg-amber-400 mt-[20px] mr-[20px]"></div>CATERING SOLUTIONS FOR EVERY OCCASION<div className="h-[2px] w-[100px] bg-amber-400 mt-[20px] ml-[20px]"></div></p>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-5 gap-[30px] justify-items-center px-4 mt-[40px]">
-                        <div className="bg-[url('./src/images/wedding.png')] bg-cover bg-center bg-no-repeat h-[400px] w-full max-w-[270px] border border-amber-400 rounded-[20px] ">
+                        <div className="bg-[url('/images/wedding.png')] bg-cover bg-center bg-no-repeat h-[400px] w-full max-w-[270px] border border-amber-400 rounded-[20px] ">
                         <div className="bg-black/40 h-[175px] w-[270px] mt-[225px] pl-[20px] pt-[10px] rounded-[20px]">
                             <p className="text-white font-[Prata] text-[27px] font-bold">Wedding <span className="block">Catering</span></p>
                             <p className="text-white text-[17px] font-['Public_sans']">Exquitable menus and flawless service for your big day.</p>
@@ -88,7 +88,7 @@ export default function Services(){
                         </div>
                         </div>
 
-                        <div className="bg-[url('./src/images/Corpevents.png')] bg-cover bg-center bg-no-repeat h-[400px] w-full max-w-[270px] border border-amber-400 rounded-[20px]">
+                        <div className="bg-[url('/images/Corpevents.png')] bg-cover bg-center bg-no-repeat h-[400px] w-full max-w-[270px] border border-amber-400 rounded-[20px]">
                         <div className="bg-black/40 h-[175px] w-[270px] mt-[225px] pl-[20px] pt-[15px] rounded-[20px]">
                             <p className="text-white font-[Prata] text-[27px] font-bold">Corporate Catering</p>
                             <p className="text-white text-[17px] font-['Public_sans']">Professional dining experiences that impress your guests.</p>
@@ -96,7 +96,7 @@ export default function Services(){
                         </div>
                         </div>
 
-                        <div className="bg-[url('./src/images/bday.png')] bg-cover bg-center bg-no-repeat h-[400px] w-full max-w-[270px] border border-amber-400 rounded-[20px]">
+                        <div className="bg-[url('/images/bday.png')] bg-cover bg-center bg-no-repeat h-[400px] w-full max-w-[270px] border border-amber-400 rounded-[20px]">
                         <div className="bg-black/40 h-[175px] w-[270px] mt-[225px] pl-[20px] rounded-[20px]">  
                             <p className="text-white font-[Prata] text-[27px] font-bold">Birthday & Family Celebrations</p>
                             <p className="text-white text-[17px] font-['Public_sans']">Delicious food that makes your special moments even more memorable.</p>
@@ -104,7 +104,7 @@ export default function Services(){
                          </div>  
                         </div>
 
-                        <div className="bg-[url('./src/images/outdoorEvents.png')] bg-cover bg-center bg-no-repeat h-[400px] w-full max-w-[270px] border border-amber-400 rounded-[20px]">
+                        <div className="bg-[url('/images/outdoorEvents.png')] bg-cover bg-center bg-no-repeat h-[400px] w-full max-w-[270px] border border-amber-400 rounded-[20px]">
                          <div className="bg-black/40 h-[175px] w-[270px] mt-[225px] pl-[20px] pt-[20px] rounded-[20px]">
                             <p className="text-white font-[Prata] text-[27px] font-bold">Outdoor Events</p>
                             <p className="text-white text-[17px] font-['Public_sans']">From small get-togethers to large events.We've got you covered.</p>
@@ -112,7 +112,7 @@ export default function Services(){
                             </div>
                         </div>
 
-                        <div className="bg-[url('./src/images/parties.png')] bg-cover bg-center bg-no-repeat h-[400px] w-full max-w-[270px] border border-amber-400 rounded-[20px]">
+                        <div className="bg-[url('/images/parties.png')] bg-cover bg-center bg-no-repeat h-[400px] w-full max-w-[270px] border border-amber-400 rounded-[20px]">
                          <div className="bg-black/60 h-[175px] w-[270px] mt-[225px] pl-[20px] pt-[15px] rounded-[20px]">
                             <p className="text-white font-[Prata] text-[27px] font-bold">Social & Private Parties</p>
                             <p className="text-white text-[17px] font-['Public_sans']">Tailored menus,theme setups and dedicated service.</p>
@@ -139,7 +139,7 @@ export default function Services(){
                             </ul>
                         </div>
 
-                        <img className="h-[50vh] w-full max-w-[110px] max-lg:flex-row" src="./src/images/flower.png" alt="" />
+                        <img className="h-[50vh] w-full max-w-[110px] max-lg:flex-row" src="/images/flower.png" alt="" />
                     </div>
                     <div className="flex flex-col justify-center items-center ml-[40px] mr-[20px] max-lg:mt-[30px] max-lg:mb-[30px]">
                     <div className="flex max-lg:overflow-x-auto">
@@ -194,7 +194,7 @@ export default function Services(){
                     </div>
 
                     <div className="relative bg-black h-[50vh] border-[2px] border-t-amber-400 border-black">
-                        <div className=" absolute inset-0 lg:bg-[url('./src/images/spices.png')] bg-none lg:bg- bg-contain bg-right bg-no-repeat flex flex-col leading-tight">
+                        <div className=" absolute inset-0 lg:bg-[url('/images/spices.png')] bg-none lg:bg- bg-contain bg-right bg-no-repeat flex flex-col leading-tight">
                             
 
                         <div className="mt-[40px] pl-[25px]">
@@ -205,35 +205,35 @@ export default function Services(){
                         <div className="mt-[30px] flex max-lg:overflow-x-auto">
                                 
                                 <div className="flex flex-col">
-                                    <img className="h-[100px] w-[100px]" src="./src/images/choleBhature.png" alt="" />
+                                    <img className="h-[100px] w-[100px]" src="/images/choleBhature.png" alt="" />
                                     <p className="text-white text-[20px] font-['Public_Sans'] pl-[15px]">Punjabi</p>
                                 </div>
                                 
                                 <div className="h-[150px] w-[2px] bg-[lightgrey] ml-[15px]"></div>
 
                                 <div className="flex flex-col">
-                                    <img className="h-[100px] w-[100px]" src="./src/images/pizza.png" alt="" />
+                                    <img className="h-[100px] w-[100px]" src="/images/pizza.png" alt="" />
                                     <p className="text-white text-[20px] font-['Public_Sans'] pl-[15px]">Continental</p>
                                 </div>
                                 
                                 <div className="h-[150px] w-[2px] bg-[lightgrey] ml-[15px]"></div>
 
                                 <div className="flex flex-col ml-[15px]">
-                                    <img className="h-[100px] w-[100px]"  src="./src/images/southIndian.png" alt="" />
+                                    <img className="h-[100px] w-[100px]"  src="/images/southIndian.png" alt="" />
                                     <p className="text-white text-[20px] font-['Public_Sans'] pl-[15px]">South-Indian</p>
                                 </div>
                                 
                                 <div className="h-[150px] w-[2px] bg-[lightgrey] ml-[15px]"></div>
 
                                 <div className="flex flex-col ml-[15px]">
-                                    <img className="h-[100px] w-[100px]"  src="./src/images/momos.png" alt="" />
+                                    <img className="h-[100px] w-[100px]"  src="/images/momos.png" alt="" />
                                     <p className="text-white text-[20px] font-['Public_Sans'] pl-[15px]">Chinese</p>
                                 </div>
                                 
                                 <div className="h-[150px] w-[2px] bg-[lightgrey] ml-[15px]"></div>
 
                                  <div className="flex flex-col ml-[15px]">
-                                    <img className="h-[100px] w-[100px]"  src="./src/images/indian.png" alt="" />
+                                    <img className="h-[100px] w-[100px]"  src="/images/indian.png" alt="" />
                                     <p className="text-white text-[20px] font-['Public_Sans'] pl-[15px]">Indian</p>
                                 </div>
                                 
@@ -241,7 +241,7 @@ export default function Services(){
 
                                 
                                  <div className="flex flex-col ml-[15px]">
-                                    <img className="h-[100px] w-[100px]"  src="./src/images/burger.png" alt="" />
+                                    <img className="h-[100px] w-[100px]"  src="/images/burger.png" alt="" />
                                     <p className="text-white text-[20px] font-['Public_Sans'] pl-[15px]">Italian</p>
                                 </div>
                                 </div>
@@ -306,7 +306,7 @@ export default function Services(){
                                 <h1 className="text-white font-[Prata] pl-[20px] text-[30px] pt-[25px] font-bold">Ready to Plan Your Event ?</h1>
                                 <p className="text-[20px] text-white pl-[20px]">Let us create a memorable experience <span className="block">for you and your guests.</span></p>
                                <div className="flex"><button onClick={()=>navigator("/contact")} className="bg-[gold] rounded-[10px] h-[30px] w-[200px] max-sm:w-[160px] ml-[30px] mt-[20px] text-[brown] text-[18px] flex gap-[20px] pl-[10px] font-['Public_Sans'] font-bold">Book your event <div className="bg-[brown] h-[24px] w-[24px] rounded-full mt-[2px]"><ChevronRight className="text-amber-400 h-6 w-6" /></div></button>
-                                 <img className="h-[100px] w-[150px] ml-[40px] mb-[100px]" src="./src/images/platter.png" alt="" /></div>
+                                 <img className="h-[100px] w-[150px] ml-[40px] mb-[100px]" src="/images/platter.png" alt="" /></div>
 
                                
                             </div>

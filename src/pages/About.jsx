@@ -24,27 +24,27 @@ export default function About() {
   {
     name: "Dheeraj Sharma",
     role: "Founder",
-    img: "./src/images/man.png",
+    img: "/images/man.png",
   },
   {
     name: "Vaibhavi Sharma",
     role: "Manager",
-    img: "./src/images/woman.png",
+    img: "/images/woman.png",
   },
   {
     name: "Vishnu",
     role: "Chef",
-    img: "./src/images/chef.png",
+    img: "/images/chef.png",
   },
   {
     name: "Rajeev",
     role: "Chef",
-    img: "./src/images/chef2.png",
+    img: "/images/chef2.png",
   },
   {
     name: "Kuldeep",
     role: "Co-manager",
-    img: "./src/images/man2.png",
+    img: "/images/man2.png",
   }
 ];
 
@@ -57,7 +57,7 @@ export default function About() {
 <div className="relative h-[60vh] border border-amber-400 border-[2px] overflow-hidden">
 
   {/* Background Layer */}
-  <div className="absolute inset-0 bg-[url('./src/images/backG.png')] bg-contain bg-no-repeat bg-right"></div>
+  <div className="absolute inset-0 bg-[url('/images/backG.png')] bg-contain bg-no-repeat bg-right"></div>
 
   {/* Image overlay (IMPORTANT FIX) */}
   <div className="absolute inset-0 bg-white/30"></div>
@@ -92,7 +92,7 @@ export default function About() {
       <div className="bg-white flex flex-col justify-center items-center lg:flex-row gap-[20px] lg:gap-[40px] mt-[50px] px-4 lg:px-[80px]">
         <img
           className="rounded-[15px] w-full max-w-[500px] h-auto object-cover"
-          src="./src/images/about.png"
+          src="/images/about.png"
           alt=""
         />
 
@@ -129,7 +129,7 @@ export default function About() {
       <div className="flex flex-col lg:flex-row justify-center items-center mt-[40px] px-4">
         
         {/* MISSION */}
-        <div className="h-auto lg:h-[350px] w-full lg:w-[600px] bg-[url('./src/images/blackBg.png')] bg-cover rounded-[20px] p-6">
+        <div className="h-auto lg:h-[350px] w-full lg:w-[600px] bg-[url('/images/blackBg.png')] bg-cover rounded-[20px] p-6">
           <div className="flex flex-col items-center text-center">
             <div className="h-[65px] w-[65px] border border-[gold] rounded-full flex items-center justify-center">
               <Radar className="w-10 h-10 text-[gold]" />
@@ -146,7 +146,7 @@ export default function About() {
         </div>
 
         {/* VISION */}
-        <div className="h-auto lg:h-[350px] w-full lg:w-[600px] bg-[url('./src/images/whiteBg.png')] bg-cover rounded-[20px] p-6">
+        <div className="h-auto lg:h-[350px] w-full lg:w-[600px] bg-[url('/images/whiteBg.png')] bg-cover rounded-[20px] p-6">
           <div className="flex flex-col items-center text-center">
             <div className="h-[65px] w-[65px] bg-[orange] border border-black rounded-full flex items-center justify-center">
               <Eye className="w-10 h-10 text-black" />
@@ -191,7 +191,7 @@ export default function About() {
       </div>
 
       {/* TEAM */}
-      <div className="bg-[url('./src/images/bg2.png')] bg-cover bg-center mt-[40px] py-10 px-4">
+      <div className="bg-[url('/images/bg2.png')] bg-cover bg-center mt-[40px] py-10 px-4">
         <h1 className="text-center text-[20px] sm:text-[30px] font-[public_sans] flex justify-center items-center gap-2">
           <span className="h-[3px] w-[80px] sm:w-[200px] bg-amber-400"></span>
           MEET OUR TEAM
@@ -222,7 +222,7 @@ export default function About() {
       {/* PROMISE */}
       <div className="bg-white mt-[50px] px-4 lg:px-[100px]">
         <div className="flex flex-col lg:flex-row">
-          <div className="bg-[url('./src/images/bg.png')] bg-cover p-6 w-full lg:w-[700px] rounded-l-[20px]">
+          <div className="bg-[url('/images/bg.png')] bg-cover p-6 w-full lg:w-[700px] rounded-l-[20px]">
             <p className="text-[orange] font-bold">OUR PROMISE</p>
 
             <h1 className="text-[24px] sm:text-[35px] font-[Prata] font-bold">
@@ -256,7 +256,7 @@ export default function About() {
       {/* CTA */}
       <div className="relative min-h-[30vh] bg-black rounded-[15px] border border-amber-400 mt-[40px] mx-4 lg:mx-[50px] p-6">
                 <div className="flex flex-col lg:flex-row lg:mx-[70px]">
-        {/* <div className="absolute inset-0 bg-[url('./src/images/glass.png')] bg-contain bg-right bg-no-repeat"></div> */}
+        {/* <div className="absolute inset-0 bg-[url('/images/glass.png')] bg-contain bg-right bg-no-repeat"></div> */}
 
         <div className="flex flex-col lg:flex-row justify-between items-center">
           
@@ -291,7 +291,7 @@ export default function About() {
              
              <img
             className="w-full lg:w-[400px] lg:ml-auto mt-[30px] h-auto object-cover rounded-r-[20px]"
-            src="./src/images/glass.png"
+            src="/images/glass.png"
           />
           </div>
       </div>

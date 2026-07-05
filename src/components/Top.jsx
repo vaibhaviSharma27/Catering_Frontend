@@ -31,7 +31,7 @@ export default function Top() {
         xl:w-[380px]
         object-contain
         "
-        src="./src/images/logo4.png"
+        src="/images/logo4.png"
         alt="Manik Caterers"
       />
 

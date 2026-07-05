@@ -49,7 +49,7 @@ const formHandler = (e) => {
      
 
         <div className="relative bg-black min-h-[65vh]">
-           <div className="absolute inset-0 bg-[url('./src/images/contactBg.png')] bg-contain bg-no-repeat bg-center lg:bg-right opacity-55 lg:opacity-100"></div>
+           <div className="absolute inset-0 bg-[url('/images/contactBg.png')] bg-contain bg-no-repeat bg-center lg:bg-right opacity-55 lg:opacity-100"></div>
            
            <div className=" relative flex flex-col justify-center items-center pt-[50px] lg:pt-[30px] lg:justify-start lg:items-start px-6 lg:pl-[80px] pt-[20px]">
                 <p className="flex text-[22px] text-amber-400 font-[monospace]">GET IN TOUCH <div className="h-[2px] w-[50px] bg-amber-400 ml-[30px] mt-[15px] "></div></p>

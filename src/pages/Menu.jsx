@@ -9,7 +9,7 @@ export default function Menu(){
         <Top/>
 
         <div className="relative bg-[midnightblue] min-h-[60vh] leading-tight px-5 md:px-[70px] pt-[15px] overflow-hidden">
-            <div className="absolute inset-0 bg-[url('./src/images/menu.png')] bg-contain md:bg-right bg-center bg-no-repeat opacity-40 lg:opacity-100"></div>
+            <div className="absolute inset-0 bg-[url('/images/menu.png')] bg-contain md:bg-right bg-center bg-no-repeat opacity-40 lg:opacity-100"></div>
 
             <div className="relative">
             <p className="text-amber-400 font-['Public_Sans'] text-[17px] font-bold flex">CUSTOMED CRAFTED MENUS <div className="h-[2px] w-[60px] ml-[10px] bg-amber-400 mt-[7px]"></div></p>
@@ -21,7 +21,7 @@ export default function Menu(){
        </div>
         </div>
 
-        <div className="flex flex-col justify-center items-center mx-[20px] bg-[url('./src/images/backG.png')] bg-cover bg-no-repeat">
+        <div className="flex flex-col justify-center items-center mx-[20px] bg-[url('/images/backG.png')] bg-cover bg-no-repeat">
             <p className="text-[32px] font-[prata] flex pt-[20px]"><div className="bg-amber-400 h-[3px] w-[70px] mr-[10px] mt-[20px]  "></div> OUR MENU CREATION JOURNEY <div className="bg-amber-400 h-[3px] w-[70px] ml-[10px] mt-[20px]"></div></p>
             <div className="flex flex-col lg:flex-row items-center mt-[50px] gap-10 px-5">
                 <div className="flex flex-col justify-center items-center">
@@ -62,28 +62,28 @@ export default function Menu(){
             <p className="text-[32px] font-[prata] flex"><div className="bg-amber-400 h-[3px] w-[70px] mr-[10px] mt-[20px]  "></div> OUR SIGNATURE EXPERIENCES <div className="bg-amber-400 h-[3px] w-[70px] ml-[10px] mt-[20px]"></div></p>
             
             <div className="flex flex-wrap justify-center gap-[30px] mt-[30px] px-5">
-                <div className="bg-[url('./src/images/chaat.png')] bg-cover bg-center bg-no-repeat h-[250px] w-full sm:w-[300px] border border-amber-400 rounded-[20px]">
+                <div className="bg-[url('/images/chaat.png')] bg-cover bg-center bg-no-repeat h-[250px] w-full sm:w-[300px] border border-amber-400 rounded-[20px]">
                          <div className="bg-[darkblue]/40 h-[105px] w-full sm:w-[300px] mt-[145px] pl-[20px] pt-[20px] rounded-[20px]">
                             <p className="text-white font-[Prata] text-[20px] font-bold">Live Chaat Counters</p>
                             <p className="text-white text-[15px] font-['Public_sans']">An interactive burst of flavours made live for your guests.</p>
                            </div> 
                 </div>
 
-                 <div className="bg-[url('./src/images/pasta.png')] bg-cover bg-center bg-no-repeat h-[250px] w-full sm:w-[300px] border border-amber-400 rounded-[20px]">
+                 <div className="bg-[url('/images/pasta.png')] bg-cover bg-center bg-no-repeat h-[250px] w-full sm:w-[300px] border border-amber-400 rounded-[20px]">
                          <div className="bg-[darkblue]/40 h-[105px] w-full sm:w-[300px] mt-[145px] pl-[20px] pt-[20px] rounded-[20px]">
                             <p className="text-white font-[Prata] text-[20px] font-bold">Live Pasta Stations</p>
                             <p className="text-white text-[15px] font-['Public_sans']">Authentic preparations, crafted just the way you like.</p>
                         </div>
                 </div>
 
-                <div className="bg-[url('./src/images/sweet.png')] bg-cover bg-center bg-no-repeat h-[250px] w-full sm:w-[300px] border border-amber-400 rounded-[20px]">
+                <div className="bg-[url('/images/sweet.png')] bg-cover bg-center bg-no-repeat h-[250px] w-full sm:w-[300px] border border-amber-400 rounded-[20px]">
                          <div className="bg-[darkblue]/40 h-[105px] w-full sm:w-[300px] mt-[145px] pl-[20px] pt-[20px] rounded-[20px]">
                             <p className="text-white font-[Prata] text-[20px] font-bold">Indian Desserts</p>
                             <p className="text-white text-[15px] font-['Public_sans']">Indulgent sweets and desserts to elevate your celebration.</p>
                         </div>
                 </div>
 
-                <div className="bg-[url('./src/images/mocktail.png')] bg-cover bg-center bg-no-repeat h-[250px] w-full sm:w-[300px] border border-amber-400 rounded-[20px]">
+                <div className="bg-[url('/images/mocktail.png')] bg-cover bg-center bg-no-repeat h-[250px] w-full sm:w-[300px] border border-amber-400 rounded-[20px]">
                          <div className="bg-[darkblue]/40 h-[105px] w-full sm:w-[300px] mt-[145px] pl-[20px] pt-[20px] rounded-[20px]">
                             <p className="text-white font-[Prata] text-[20px] font-bold">Mocktail Experiences</p>
                             <p className="text-white text-[15px] font-['Public_sans']">Refreshing handcrafted drinks to add the perfect touch.</p>

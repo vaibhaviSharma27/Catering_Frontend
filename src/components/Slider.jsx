@@ -16,10 +16,10 @@ export default function Slider() {
   
 const navigator = useNavigate();
   const slidesData = [
-    { id: 1, src: "./src/images/slide1.png", tag: "ELITE CORPORATE FUNCTIONS.", title: "SEAMLESS EXECUTIVE HOSPITALITY" },
-    { id: 2, src: "./src/images/slide2.png", tag: "THE FAIRYTALE WEDDING.", title: "CRAFTING SPECTACULAR MARRIAGES" },
-    { id: 3, src: "./src/images/slide7.png", tag: "PRE-WEDDING CELEBRATIONS.", title: "HIGH-ENERGY DJ LIGHT SYSTEM" },
-    { id: 4, src: "./src/images/slide4.png", tag: "CULTURAL & FESTIVE GALAS.", title: "AUTHENTIC GATHERINGS IN HIMACHAL" },
+    { id: 1, src: "/images/slide1.png", tag: "ELITE CORPORATE FUNCTIONS.", title: "SEAMLESS EXECUTIVE HOSPITALITY" },
+    { id: 2, src: "/images/slide2.png", tag: "THE FAIRYTALE WEDDING.", title: "CRAFTING SPECTACULAR MARRIAGES" },
+    { id: 3, src: "/images/slide7.png", tag: "PRE-WEDDING CELEBRATIONS.", title: "HIGH-ENERGY DJ LIGHT SYSTEM" },
+    { id: 4, src: "/images/slide4.png", tag: "CULTURAL & FESTIVE GALAS.", title: "AUTHENTIC GATHERINGS IN HIMACHAL" },
   ];
 
   return (
