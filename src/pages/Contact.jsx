@@ -4,6 +4,7 @@ import { ChefHat, HandHeart, HandPlatter, User, Mail, Phone, CalendarDays, Calen
 import { useState } from "react";
 import Footer from "../components/Footer";
 import { toast } from "react-toastify";
+import "dotenv/config";
 
 
 export default function Contact(){
@@ -13,7 +14,7 @@ const [eventDate, setEventDate] = useState("");
 
 async function queryHandler(data){
   try{
-    let response = await fetch(`http://localhost:8080`+"/contact", {
+    let response = await fetch(import.meta.env.VITE_BACKEND_HOST+"/contact", {
 
       method:"POST",
       headers:{"content-type":"application/json"},
