@@ -4,7 +4,7 @@ import { ChefHat, HandHeart, HandPlatter, User, Mail, Phone, CalendarDays, Calen
 import { useState } from "react";
 import Footer from "../components/Footer";
 import { toast } from "react-toastify";
-import "dotenv/config";
+
 
 
 export default function Contact(){
