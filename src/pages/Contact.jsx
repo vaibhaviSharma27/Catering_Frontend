@@ -18,6 +18,7 @@ async function queryHandler(data){
 
       method:"POST",
       headers:{"content-type":"application/json"},
+      credentials: "include",
       body: JSON.stringify(data)
     });
 
