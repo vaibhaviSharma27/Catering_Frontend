@@ -184,11 +184,11 @@ export default function Home() {
                </div>
 
                <div className="bg-[url('/images/post.png')] h-[350px] w-full max-w-[470px] bg-cover bg-center">
-               <p className="text-[16px] font-[cursive] w-[75%] pt-[70px] pl-[150px]">"We booked them for our daughter's wedding, and they exceeded all expectations. From the menu variety to the service, everything was perfectly organized."</p>
+               <p className="text-[16px] font-[cursive] w-[75%]  pt-[70px] pl-[150px]">"We booked them for our daughter's wedding, and they exceeded all expectations. From the menu variety to the service, everything was perfectly organized."</p>
                </div>
 
                <div className="bg-[url('/images/post.png')] h-[350px] w-full max-w-[470px] bg-cover bg-center">
-               <p className="text-[16px] font-[cursive] w-[75%] pt-[70px] pl-[150px]">"Excellent food, punctual service, and a very cooperative staff. Our corporate event was a huge success thanks to their attention to detail and hospitality."</p>
+               <p className="text-[16px] font-[cursive] w-[75%]  pt-[70px] pl-[150px]">"Excellent food, punctual service, and a very cooperative staff. Our corporate event was a huge success thanks to their attention to detail and hospitality."</p>
                
                
                </div>
