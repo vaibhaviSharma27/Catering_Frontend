@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  margin:0;
+  padding:0;
+}
+body{
+  /* background-image:url("https://static.vecteezy.com/system/resources/previews/011/579/772/original/gold-color-background-gold-color-gradient-for-poster-background-banner-web-etc-vector.jpg");
+  background-size: cover;
+  height:100vh;
+  width:100vw; */
+}
+
+input[type="date"]::-webkit-datetime-edit {
+  color: transparent;
+}
+
+input[type="date"]:focus::-webkit-datetime-edit,
+input[type="date"]:valid::-webkit-datetime-edit {
+  color: orange;
+}
+
+
+  

@@ -1,0 +1,241 @@
+import Nav from "../components/Nav";
+import Top from "../components/Top";
+import {Radar, Eye, ChefHat,Leaf, ShieldCheck, Users,Star, Handshake, Heart, Check, ChevronRight,Phone} from "lucide-react"
+import Footer from "../components/Footer";
+
+export default function About(){
+    return(
+        <>
+        <Top />
+
+        {/* 'https://img.freepik.com/premium-vector/luxury-arabesque-illustration-design-background_420273-290.jpg?w=740 */}
+        
+
+        <div className="relative">
+
+        <div className="bg-[url('./src/images/backG.png')] bg-contain bg-no-repeat h-[60vh] backdrop-blur border border-amber-400 border-[2px]">
+
+        <div className="absolute inset-0 bg-[url('https://tse3.mm.bing.net/th/id/OIP.MN1gY2L87m6TSNUZGFQwhgHaE8?w=996&h=664&rs=1&pid=ImgDetMain&o=7&rm=3')] bg-contain bg-no-repeat h-[60vh] bg-right ">
+        
+        <div className="flex flex-col ml-[240px] mt-[15px]">
+        <p className="text-amber-400 text-[20px] font-bold ">ABOUT US</p>
+        <h1 className="text-[65px] text-black font-[Prata] font-bold ">Serving Smiles</h1>
+        <p className="text-[115px] font-['Great_Vibes'] text-amber-400">Since 1997</p>
+        <p className="text-[30px] text-black font-[Sofia]  ">Four decades of passion, dedication and <span className="block">delicious food that brings people together.</span></p>
+        </div>
+
+        </div>
+        </div>
+    
+        </div>
+
+            <div className=" bg-white h-[75vh] flex gap-[40px] mt-[50px] ml-[80px] mr-[80px]" >
+            <img className="rounded-[15px] h-[500px] w-[500px]" src="./src/images/about.png" alt="" />
+      
+              <div>
+            <p className="text-[18px] flex">OUR STORY <div className="h-[3px] w-[70px] mt-[12px] ml-[7px] bg-amber-400"></div></p>
+
+            <h1 className="font-[Prata] text-[40px] font-bold">A Legacy of Taste <span className="block">and Trust</span></h1>
+
+            <p className="font-['Great_Vibes'] text-[25px]">Setting the Gold Standard for Mountain Hospitality Since 1997.</p>
+
+            <p className="text-[20px] font-[arial] pt-[10px]">For nearly three decades, Guruji Caterers has been weaving culinary magic and orchestrating flawless celebrations across the grand landscapes of Himachal Pradesh. What started as a passionate family vision in 1997 has evolved into the region's premier all-in-one event specialist.</p>
+
+            <p className="text-[20px] font-[arial] pt-[20px]">We believe that an extraordinary gathering requires a perfect harmony of flavors, atmosphere, and seamless execution. By blending deep-rooted Himachali traditions with modern global execution, we don't just host functions—we build core lifelong memories.</p>
+
+            <p className="font-[Tangerine] text-[gold] text-[35px] font-bold pt-[15px]">- The Guruji Caterers Family</p>
+            </div>
+
+        </div>
+
+         <div className="flex justify-center items-center ">
+
+         
+        <div className="h-[350px] w-[600px] bg-[url('./src/images/blackBg.png')] bg-cover bg-no-repeat ml-[70px] rounded-l-[20px] ">
+
+        
+         
+                 
+                 <div className="flex flex-col justify-center items-center w-[380px] ml-[200px] pt-[10px]">
+                <div className="h-[65px] w-[65px] border border-[gold] border-12px rounded-full"><Radar className="w-14 h-14 text-[gold] pl-[10px]" /></div>
+
+                <div className="text-white">
+                <h1 className="text-center text-[30px] font-[Prata] font-bold">OUR MISSION</h1>
+                <p className="font-[Sofia] text-[19px] ">We don't just cook food; we build trust with our clients. Our team goes above and beyond to bring great flavors, beautiful tents, and lively music to every corner of Himachal. Seeing the joy on your guests' faces and knowing they loved every bit of the party is what keeps us excited every single day.</p>
+                </div>
+                </div>
+        </div>
+
+                {/* <div className="h-[70px] w-[70px] bg-white border border-[orange] border-[4px] rounded-full  "><ChefHat className="w-14 h-14 text-[orange] pl-[10px]" /></div> */}
+
+                <div className="h-[350px] w-[600px] bg-[url('./src/images/whiteBg.png')] bg-cover bg-no-repeat rounded-r-[20px]  ">
+                 
+                 <div className="flex flex-col justify-center items-center w-[380px] ml-[200px] pt-[10px]">
+                <div className="h-[65px] w-[65px] border border-black border-12px rounded-full bg-[orange]"><Eye className="w-14 h-14 text-black pl-[10px]" /></div>
+
+                <div className="text-black">
+                <h1 className="text-center pt-[15px] text-[30px] font-[Prata] text-[orange] font-bold">OUR VISION</h1>
+                <p className="font-[Sofia] text-[19px] font-bold">We don't just cook food; we build trust with our clients. Our team goes above and beyond to bring great flavors, beautiful tents, and lively music to every corner of Himachal. Seeing the joy on your guests' faces and knowing they loved every bit of the party is what keeps us excited every single day.</p>
+                </div>
+                </div>
+
+                </div>
+        </div>
+
+        <div className="h-[40vh] bg-white mt-[40px]">
+
+            <div className=" flex justify-center items-center">
+            <h1 className="text-[30px] font-[Prata] text-center flex"> <div className="h-[3px] w-[130px] bg-amber-400 mt-[20px] mr-[10px]"></div>OUR VALUES <div className="h-[3px] w-[130px] bg-amber-400 mt-[20px] ml-[10px]"></div></h1>
+            </div>
+
+               <div className="flex justify-center items-center gap-[20px] mt-[40px]">
+
+            <div className="h-[200px] w-[200px] flex flex-col justify-center items-center">
+                <div className="h-[70px] w-[70px] rounded-full border border-[goldenrod] border-[3px] bg-[beige]" ><Leaf className="text-[goldenrod] w-14 h-14 pl-[10px]" /></div>
+                <p className="text-[20px] font-bold font-[monospace]">QUALITY</p>
+                <p className="text-[20px] text-center ">Finest ingredients <span className="block">and highest</span> standards.</p>
+            </div>
+
+                <div className="h-[200px] w-[200px] flex flex-col justify-center items-center">
+                <div className="h-[70px] w-[70px] rounded-full border border-[goldenrod] border-[3px] bg-[beige]" ><ShieldCheck  className="text-[goldenrod] w-14 h-14 pl-[10px]" /></div>
+                <p className="text-[20px] font-bold font-[monospace]">HYGIENE</p>
+                <p className="text-[20px] text-center ">Clean, safe and <span className="block">hygienic - always</span> our top priority.</p>
+
+                
+            </div>
+
+                <div className="h-[200px] w-[200px] flex flex-col justify-center items-center">
+                <div className="h-[70px] w-[70px] rounded-full border border-[goldenrod] border-[3px] bg-[beige]" ><Users  className="text-[goldenrod] w-14 h-14 pl-[10px]" /></div>
+                <p className="text-[20px] font-bold font-[monospace]">PASSION</p>
+                <p className="text-[20px] text-center ">We cook with love <span className="block">and serve with</span>pride.</p>
+
+                
+            </div>
+
+                <div className="h-[200px] w-[200px] flex flex-col justify-center items-center">
+                <div className="h-[70px] w-[70px] rounded-full border border-[goldenrod] border-[3px] bg-[beige]" ><Handshake   className="text-[goldenrod] w-14 h-14 pl-[10px]" /></div>
+                <p className="text-[20px] font-bold font-[monospace]">COMMITMENT</p>
+                <p className="text-[20px] text-center ">Your satisfaction is<span className="block">our promise and</span>our responsibility.</p>
+
+                
+            </div>
+
+                <div className="h-[200px] w-[200px] flex flex-col justify-center items-center">
+                <div className="h-[70px] w-[70px] rounded-full border border-[goldenrod] border-[3px] bg-[beige]" ><Star    className="text-[goldenrod] w-14 h-14 pl-[10px]" /></div>
+                <p className="text-[20px] font-bold font-[monospace]">INNOVATION</p>
+                <p className="text-[20px] text-center ">Constantly evolving<span className="block">menus to bring you</span>the best.</p>
+                
+            </div>
+
+                <div className="h-[200px] w-[200px] flex flex-col justify-center items-center">
+                <div className="h-[70px] w-[70px] rounded-full border border-[goldenrod] border-[3px] bg-[beige]" ><Heart     className="text-[goldenrod] w-14 h-14 pl-[10px]" /></div>
+                <p className="text-[20px] font-bold font-[monospace]">INTEGRITY</p>
+                <p className="text-[20px] text-center ">Built over decades of<span className="block">honesty, consistency</span>and care.</p>
+            
+            </div>
+
+            </div>
+        </div>
+
+        
+        <div className="bg-[url('./src/images/bg2.png')] bg-cover bg-center bg-no-repeat h-[70vh] mt-[40px]">
+         
+            <div className="flex flex-col justify-center items-center h-[70vh]">
+            <h1 className="flex text-[30px] font-['public_sans'] text-center"><div className="h-[3px] w-[200px] bg-amber-400 mt-[20px] mr-[10px]"></div>MEET OUR TEAM<div className="h-[3px] w-[200px] bg-amber-400 mt-[20px] ml-[10px]"></div></h1>
+
+        <div className="flex gap-[25px]">
+               {/* <img className="h-[250px]" src="./src/images/flower.png" alt="" /> */}
+            <div className="border border-black rounded-[20px] w-[200px] mt-[40px]">
+                <img className="h-[290px] pl-[30px] pt-[10px]" src="./src/images/man.png" alt="" />
+                <div className="bg-black border rounded-b-[20px] h-[80px]">
+                    <p className="text-white font-['public_sans'] text-[18px] pt-[15px] text-center" >DHEERAJ SHARMA</p>
+                    <p className="text-amber-400 font-[Prata] text-[18px] text-center pl-[15px]">Founder</p>
+                    </div>
+            </div>
+
+            
+            <div className="border border-black rounded-[20px] w-[200px] mt-[40px]">
+                <img className="h-[290px] pt-[10px]" src="./src/images/woman.png" alt="" />
+                <div className="bg-black border rounded-b-[20px] h-[80px]">
+                    <p className="text-white font-['public_sans'] text-[18px] pt-[15px] text-center" >VAIBHAVI SHARMA</p>
+                    <p className="text-amber-400 font-[Prata] text-[18px] text-center pl-[15px]">Manager</p>
+                    </div>
+            </div>
+
+            <div className="border border-black rounded-[20px] w-[200px] mt-[40px]">
+                <img className="h-[290px] pl-[30px] pt-[10px]" src="./src/images/chef.png" alt="" />
+                <div className="bg-black border rounded-b-[20px] h-[80px]">
+                    <p className="text-white font-['public_sans'] text-[18px] pt-[15px] text-center" > XXXXXX XXXXX</p>
+                    <p className="text-amber-400 font-[Prata] text-[18px] text-center pl-[15px]">Chef</p>
+                    </div>
+            </div>
+
+             <div className="border border-black rounded-[20px] w-[200px] mt-[40px]">
+                <img className="h-[290px] pl-[30px] pt-[10px]" src="./src/images/man2.png" alt="" />
+                <div className="bg-black border rounded-b-[20px] h-[80px]">
+                    <p className="text-white font-['public_sans'] text-[18px] pt-[15px] text-center" > XXXXXX XXXXX</p>
+                    <p className="text-amber-400 font-[Prata] text-[18px] text-center pl-[15px]">XXXXX</p>
+                    </div>
+            </div>
+
+            <div className="border border-black rounded-[20px] w-[200px] mt-[40px]">
+                <img className="h-[290px] pl-[30px] pt-[10px]" src="./src/images/chef2.png" alt="" />
+                <div className="bg-black border rounded-b-[20px] h-[80px]">
+                    <p className="text-white font-['public_sans'] text-[18px] pt-[15px] text-center" > XXXXXX XXXXX</p>
+                    <p className="text-amber-400 font-[Prata] text-[18px] text-center pl-[15px]">Chef</p>
+                    </div>
+            </div>
+
+
+
+            </div>
+            </div>
+        </div>
+
+
+        <div className=" bg-white ml-[100px] mt-[70px]">
+
+             <div className="flex">
+            <div className="bg-[url('./src/images/bg.png')] bg-cover bg-no-repeat bg-center pl-[170px] pt-[25px]  h-[350px] w-[700px] border rounded-l-[20px]">
+
+             <p className="text-[20px] font-bold text-[orange] font-['public_sans']">OUR PROMISE</p>
+             <p className="text-[35px] font-[Prata] font-bold">We Promise More <span className="block">Than Just Great Food</span></p>
+             <ul className="text-[20px]">
+                <li  className="flex gap-[15px] mb-[15px] font-['public_sans'] "><div className="h-[30px] w-[30px] border border-[red] border-12px rounded-full bg-[orange]"><Check className="w-6 h-6 text-black " /></div>Fresh ingredients and authentic flavours.</li>
+                <li  className="flex gap-[15px] mt-[15px] font-['public_sans']"><div className="h-[30px] w-[30px] border border-[red] border-12px rounded-full bg-[orange]"><Check className="w-6 h-6 text-black " /></div>Timely service with attention to every detail.</li>
+                <li className="flex gap-[15px] mt-[15px] font-['public_sans']"><div className="h-[30px] w-[30px] border border-[red] border-12px rounded-full bg-[orange]"><Check className="w-6 h-6 text-black " /></div>Customised menus for every occasion.</li>
+                <li className="flex gap-[15px] mt-[15px] font-['public_sans']"><div className="h-[30px] w-[30px] border border-[red] border-12px rounded-full bg-[orange]"><Check className="w-6 h-6 text-black " /></div>Memorable experiences for you and your guests.</li>
+             </ul>
+            </div>
+            <img className="h-[350px] w-[600px] border rounded-r-[20px]" src="https://img.freepik.com/premium-photo/traditional-indian-wedding-buffet-with-delicious-cuisine_641503-145964.jpg" alt="" />
+             </div>          
+       </div>
+
+    
+       <div className="relative bg-black rounded-[15px] border border-amber-400 border-[2px] mt-[40px] ml-[50px] mr-[40px] mb-[20px] h-[30vh]">
+         <div className="absolute inset-0 h-[28vh] bg-[url('./src/images/glass.png')] bg-contain bg-right bg-no-repeat" ></div>
+         <div className="flex">
+            <div className="flex flex-col pl-[100px] leading-tight pt-[20px]">
+         <p className="text-amber-400 font-['Great_vibes'] text-[45px]">Let's Create</p>
+         <p className="text-white font-[Prata] text-[35px]">Unforgettable Memories</p>
+         <p className="text-white text-[18px] font-['Public_Sans'] pt-[10px]">From intimate gatherings to grand celebrations, <span className="block">we are here to make every moment special.</span></p>
+         </div>
+         <div className="h-[100px] w-[2px] bg-[gold] mt-[70px] ml-[50px]"></div>
+         
+         <div className="mt-[30px]">
+           <div className="flex"> <button className="bg-[gold] rounded-[10px] h-[60px] w-[290px] ml-[30px] mt-[20px] text-[brown] pt-[15px] pl-[25px] text-[20px] flex gap-[20px] pl-[10px] font-['Public_Sans'] font-bold">Book Your Event Now <div className="bg-[brown] h-[24px] w-[24px] rounded-full mt-[2px]"><ChevronRight className="text-amber-400 h-6 w-6" /></div></button></div>
+
+          <div className="flex gap-[15px] ml-[20px]">
+           <div className="bg-black h-[30px] w-[30px] rounded-full border border-amber-400 mt-[20px] ml-[15px]"><Phone className="text-amber-400 h-6 w-6 pl-[5px]" /></div>
+           <p className="text-[20px] font-cursive text-white mt-[20px]">+917876167162</p>
+           </div>
+          
+
+         </div>
+       </div>
+        
+       </div>
+
+       <Footer/>
+        </>
+    )
