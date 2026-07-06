@@ -62,7 +62,7 @@ export default function About() {
 <div className="relative h-[60vh] border border-amber-400 border-[2px] overflow-hidden">
 
   {/* Background Layer */}
-  <div className="absolute inset-0 bg-[url('/images/backG.png')] bg-contain bg-no-repeat md:bg-right h-auto bg-center opacity-40 lg:opacity-100"></div>
+  <div className="absolute inset-0 bg-[url('/images/backG.png')] bg-contain bg-no-repeat md:bg-right h-auto bg-center opacity-25 lg:opacity-100"></div>
 
   {/* Image overlay (IMPORTANT FIX) */}
   <div className="absolute inset-0 bg-white/30"></div>
@@ -108,11 +108,11 @@ export default function About() {
             <span className="h-[3px] w-[50px] sm:w-[70px] bg-amber-400"></span>
           </p>
 
-          <h1 className="font-[Prata] text-[28px] sm:text-[35px] lg:text-[40px] font-bold text-amber-500">
+          <h1 className="font-[Prata] text-[28px] sm:text-[35px] lg:text-[40px] font-bold ">
             A Legacy of Taste <span className="block">and Trust</span>
           </h1>
 
-          <p className="font-['Great_Vibes'] text-[23px] sm:text-[26px]">
+          <p className="font-['Great_Vibes'] text-amber-500 text-[23px] sm:text-[26px]">
             Setting the Gold Standard for Mountain Hospitality Since 1997.
           </p>
 
