@@ -42,7 +42,7 @@ export default function Services(){
                         <p className="text-[20px] font-[Prata] ">Every occasion is unique. Our services are crafted to match your vision, <span className="block">theme, and expectations.</span></p>
                     </div>
 
-                    <div className="flex mt-[20px] gap-1 flex-wrap lg:flex-nowrap max-lg:justify-center max-lg:items-center">
+                    <div className="flex mt-[20px] gap-2 flex-wrap lg:flex-nowrap max-lg:justify-center max-lg:items-center">
                         <div className="h-[150px] w-[2px] bg-[lightgrey]"></div>
                         <div >
                             <UserStar className="text-amber-400 w-20 h-20 pl-[30px]"/>
