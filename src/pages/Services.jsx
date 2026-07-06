@@ -66,7 +66,7 @@ export default function Services(){
 
                         <div className="h-[150px] w-[2px] bg-[lightgrey] hidden lg:block"></div>
                         <div className="flex flex-col justify-center items-center">
-                            <Smile className="text-amber-400 lg:w-20 lg:h-20 h-12 w-12 lg:pl-[30px]"/>
+                            <Smile className="text-amber-400 w-20 h-20 lg:pl-[30px]"/>
                             <p className="font-['Public_Sans'] font-bold lg:text-[20px] text-[16px]">Professional Staff</p>
                             <p className="lg:text-[18px] text-[14px]">Trained & courteous</p>
                         </div>
@@ -142,7 +142,7 @@ export default function Services(){
                         <img className="h-[50vh] w-full max-w-[110px] max-lg:flex-row" src="/images/flower.png" alt="" />
                     </div>
                     <div className="flex flex-col justify-center items-center ml-[40px] mr-[20px] max-lg:mt-[30px] max-lg:mb-[30px]">
-                    <div className="flex lg:Flex-row flex-col max-lg:overflow-x-auto mt-[20px] gap-2 flex-wrap lg:flex-nowrap max-lg:justify-center max-lg:items-center">
+                    <div className="flex max-lg:overflow-x-auto mt-[20px] gap-2 flex-wrap lg:flex-nowrap max-lg:justify-center max-lg:items-center">
                         <div className="flex flex-col gap-[20px] justify-center items-center">
                             <div className="bg-black h-[70px] w-[70px] border border-amber-400 border-[2px] rounded-full"><Users className="text-amber-400 h-16 w-14 pl-[10px]"/></div>
                             <p className="font-bold text-[26px] font-[Prata]">Understand</p>
