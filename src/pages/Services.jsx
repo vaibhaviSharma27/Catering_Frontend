@@ -1,6 +1,6 @@
 import Nav from "../components/Nav";
 import Top from "../components/Top";
-import { UserStar, ShieldCheck, Store, Smile, Leaf, Users, ArrowRight, ClipboardList, ChefHat, HandPlatter, PartyPopper, Soup, Salad, Pizza, CalendarDays, ReceiptText, Rose, TimerReset, Headset, ChevronRight } from "lucide-react";
+import { UserStar, ShieldCheck, Store, Smile, Leaf, Users, ArrowRight,ArrowDown, ClipboardList, ChefHat, HandPlatter, PartyPopper, Soup, Salad, Pizza, CalendarDays, ReceiptText, Rose, TimerReset, Headset, ChevronRight } from "lucide-react";
 import Footer from "../components/Footer";
 import { useNavigate } from "react-router-dom";
 
@@ -45,28 +45,28 @@ export default function Services(){
                     <div className="flex mt-[20px] gap-2 flex-wrap lg:flex-nowrap max-lg:justify-center max-lg:items-center">
                         <div className="h-[150px] w-[2px] bg-[lightgrey] hidden lg:block"></div>
                         <div className="flex flex-col justify-center items-center" >
-                            <UserStar className="text-amber-400 w-20 h-20 lg:pl-[30px]"/>
+                            <UserStar className="text-amber-400 lg:w-20 lg:h-20 h-12 w-12 lg:pl-[30px]"/>
                             <p className="font-['Public_Sans'] font-bold lg:text-[20px] text-[16px]">Custom Menus</p>
                             <p className="lg:text-[18px] text-[14px]">Made just for you</p>
                         </div>
 
                         <div className="h-[150px] w-[2px] bg-[lightgrey] hidden lg:block"></div>
                         <div className="flex flex-col justify-center items-center" >
-                            <ShieldCheck className="text-amber-400 w-20 h-20 lg:pl-[30px]"/>
+                            <ShieldCheck className="text-amber-400 lg:w-20 lg:h-20 h-12 w-12 lg:pl-[30px]"/>
                             <p className="font-['Public_Sans'] font-bold lg:text-[20px] text-[16px]">Premium Quality</p>
                             <p className="lg:text-[18px] text-[14px]">In every detail</p>
                         </div>
 
                         <div className="h-[150px] w-[2px] bg-[lightgrey] hidden lg:block"></div>
                         <div className="flex flex-col justify-center items-center" >
-                            <Store className="text-amber-400 w-20 h-20 lg:pl-[30px]"/>
+                            <Store className="text-amber-400 lg:w-20 lg:h-20 h-12 w-12 lg:pl-[30px]"/>
                             <p className="font-['Public_Sans'] font-bold lg:text-[20px] text-[16px]">Complete Setup</p>
                             <p className="lg:text-[18px] text-[14px]">We handle it all</p>
                         </div>
 
                         <div className="h-[150px] w-[2px] bg-[lightgrey] hidden lg:block"></div>
                         <div className="flex flex-col justify-center items-center">
-                            <Smile className="text-amber-400 w-20 h-20 lg:pl-[30px]"/>
+                            <Smile className="text-amber-400 lg:w-20 lg:h-20 h-12 w-12 lg:pl-[30px]"/>
                             <p className="font-['Public_Sans'] font-bold lg:text-[20px] text-[16px]">Professional Staff</p>
                             <p className="lg:text-[18px] text-[14px]">Trained & courteous</p>
                         </div>
@@ -142,7 +142,7 @@ export default function Services(){
                         <img className="h-[50vh] w-full max-w-[110px] max-lg:flex-row" src="/images/flower.png" alt="" />
                     </div>
                     <div className="flex flex-col justify-center items-center ml-[40px] mr-[20px] max-lg:mt-[30px] max-lg:mb-[30px]">
-                    <div className="flex max-lg:overflow-x-auto mt-[20px] gap-2 flex-wrap lg:flex-nowrap max-lg:justify-center max-lg:items-center">
+                    <div className="flex lg:Flex-row flex-col max-lg:overflow-x-auto mt-[20px] gap-2 flex-wrap lg:flex-nowrap max-lg:justify-center max-lg:items-center">
                         <div className="flex flex-col gap-[20px] justify-center items-center">
                             <div className="bg-black h-[70px] w-[70px] border border-amber-400 border-[2px] rounded-full"><Users className="text-amber-400 h-16 w-14 pl-[10px]"/></div>
                             <p className="font-bold text-[26px] font-[Prata]">Understand</p>
@@ -151,6 +151,8 @@ export default function Services(){
                         </div>
 
                         <ArrowRight className="h-14 w-14 text-amber-400 mt-[60px] hidden lg:block"/>
+                        
+                        <ArrowDown className="h-14 w-14 text-amber-400 mt-[60px] lg:hidden block"/>
 
                          <div className="flex flex-col gap-[20px] justify-center items-center">
                             <div className="bg-black h-[70px] w-[70px] border border-amber-400 border-[2px] rounded-full"><ClipboardList className="text-amber-400 h-16 w-14 pl-[10px]"/></div>
@@ -160,6 +162,7 @@ export default function Services(){
                         </div>
 
                         <ArrowRight className="h-14 w-14 text-amber-400 mt-[60px] hidden lg:block"/>
+                         <ArrowDown className="h-14 w-14 text-amber-400 mt-[60px] lg:hidden block"/>
 
                         <div className="flex flex-col gap-[13px] justify-center items-center">
                             <div className="bg-black h-[70px] w-[70px] border border-amber-400 border-[2px] rounded-full"><ChefHat className="text-amber-400 h-16 w-14 pl-[10px]"/></div>
@@ -169,6 +172,7 @@ export default function Services(){
                         </div>
 
                         <ArrowRight className="h-14 w-14 text-amber-400 mt-[60px] hidden lg:block"/>
+                         <ArrowDown className="h-14 w-14 text-amber-400 mt-[60px] lg:hidden block"/>
 
                         <div className="flex flex-col gap-[13px] justify-center items-center">
                             <div className="bg-black h-[70px] w-[70px] border border-amber-400 border-[2px] rounded-full"><HandPlatter className="text-amber-400 h-16 w-14 pl-[10px]"/></div>
@@ -178,6 +182,7 @@ export default function Services(){
                         </div>
 
                         <ArrowRight className="h-14 w-14 text-amber-400 mt-[60px] hidden lg:block"/>
+                         <ArrowDown className="h-14 w-14 text-amber-400 mt-[60px] lg:hidden block"/>
 
                         <div className="flex flex-col gap-[13px] justify-center items-center lg:pr-[0] pr-[20px]">
                             <div className="bg-black h-[70px] w-[70px] border border-amber-400 border-[2px] rounded-full"><PartyPopper className="text-amber-400 h-16 w-14 pl-[10px]"/></div>
