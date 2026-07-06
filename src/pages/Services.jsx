@@ -19,10 +19,10 @@ export default function Services(){
                    
                     <div className="relative flex flex-col sm:ml-16 lg:ml-[270px] mt-[40px]" >
                         
-                        <p className="flex text-[22px] font-[monospace] text-center lg:text-left text-amber-400 pl-[95px]">OUR SERVICES <div className="h-[1px] w-[70px] bg-amber-400 ml-[10px] mt-[15px]"></div></p>
-                        <h1 className="text-[55px] sm:text-[70px] text-center lg:text-left lg:text-[85px] text-white font-['Playfair_Display'] pl-[30px] leading-hidden">We Cater.</h1>
-                        <p className="text-[70px] sm:text-[90px] text-center lg:text-left lg:text-[110px] font-['Great_vibes'] text-amber-400 leading-hidden">you Celebrate.</p>
-                        <div className="h-[3px] w-[250px] bg-amber-500 ml-[60px]"></div>
+                        <p className="flex text-[22px] font-[monospace] text-center lg:text-left text-amber-400 lg:pl-[95px] pl-[280px]">OUR SERVICES <div className="h-[1px] w-[70px] bg-amber-400 ml-[10px] mt-[15px]"></div></p>
+                        <h1 className="text-[55px] sm:text-[70px] text-center lg:text-left lg:text-[75px] text-white font-['Playfair_Display'] pl-[30px] lg:leading-tight">We Cater.</h1>
+                        <p className="text-[70px] sm:text-[90px] text-center lg:text-left lg:text-[100px] font-['Great_vibes'] text-amber-400 lg:leading-tight">you Celebrate.</p>
+                        <div className="h-[3px] w-[250px] bg-amber-500 lg:ml-[60px] ml-[200px]"></div>
                         <p className="lg:text-[24px] text-[20px] text-white font-[Prata] pt-[15px] text-center lg:text-left">From intimate gatherings to grand celebrations, <span className="block">we bring people together with exceptional food</span> <span className="block lg:pl-[70px]">and seamless service.</span></p>
                         
 
@@ -66,7 +66,7 @@ export default function Services(){
 
                         <div className="h-[150px] w-[2px] bg-[lightgrey] hidden lg:block"></div>
                         <div className="flex flex-col justify-center items-center">
-                            <Smile className="text-amber-400 w-20 h-20 lg:pl-[30px]"/>
+                            <Smile className="text-amber-400 lg:w-20 lg:h-20 h-12 w-12 lg:pl-[30px]"/>
                             <p className="font-['Public_Sans'] font-bold lg:text-[20px] text-[16px]">Professional Staff</p>
                             <p className="lg:text-[18px] text-[14px]">Trained & courteous</p>
                         </div>
@@ -77,7 +77,7 @@ export default function Services(){
                       {/* h-[90vh] */}
                        
                     <div className="bg-black/90 mt-[40px] py-[60px] flex flex-col justify-center items-center">
-                        <p className="flex text-amber-400 text-[30px] font-[Prata] text-center "> <div className="h-[2px] w-[100px] bg-amber-400 mt-[20px] mr-[20px]"></div>CATERING SOLUTIONS FOR EVERY OCCASION<div className="h-[2px] w-[100px] bg-amber-400 mt-[20px] ml-[20px]"></div></p>
+                        <p className="flex text-amber-400 text-[30px] font-[Prata] text-center "> <div className="h-[2px] w-[100px] bg-amber-400 mt-[20px] mr-[20px] hidden lg:block"></div>CATERING SOLUTIONS FOR EVERY OCCASION<div className="h-[2px] w-[100px] bg-amber-400 mt-[20px] ml-[20px] hidden lg:block"></div></p>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-5 gap-[30px] justify-items-center px-4 mt-[40px]">
                         <div className="bg-[url('/images/wedding.png')] bg-cover bg-center bg-no-repeat h-[400px] w-full max-w-[270px] border border-amber-400 rounded-[20px] ">
