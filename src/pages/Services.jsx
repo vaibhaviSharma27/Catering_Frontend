@@ -251,7 +251,7 @@ export default function Services(){
                                 </div> */}
                                 </div>
 
-                                <p className="text-center text-[20px] font-bold text-['Great-vibes'] text-white block lg:hidden">SCROLL LEFT FOR MORE</p>
+                                <p className="text-center text-[20px] font-bold text-['Great_vibes'] pt-[30px] text-white block lg:hidden ">Scroll left for more cuisines...</p>
             
                             
                             </div>
