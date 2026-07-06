@@ -37,35 +37,35 @@ export default function Services(){
                     <div className="ml-5 lg:ml-[35px] mt-[30px] mb-[25px] flex gap-[20px] max-lg:flex-col">
 
                     <div>
-                        <p className="text-amber-400 font-bold font-['Public_Sans'] text-[24px] tracking-widest">WHAT WE DO</p>
-                        <h1 className="text-[50px] font-[Prata]">Tailored Catering Experiences</h1>
-                        <p className="text-[20px] font-[Prata] ">Every occasion is unique. Our services are crafted to match your vision, <span className="block">theme, and expectations.</span></p>
+                        <p className="text-amber-400 font-bold font-['Public_Sans'] lg:text-[24px] text-[20px] tracking-widest">WHAT WE DO</p>
+                        <h1 className="lg:text-[50px] text-[35px] font-[Prata]">Tailored Catering Experiences</h1>
+                        <p className="lg:text-[20px] text-[16px] font-[Prata] ">Every occasion is unique. Our services are crafted to match your vision, <span className="block">theme, and expectations.</span></p>
                     </div>
 
                     <div className="flex mt-[20px] gap-2 flex-wrap lg:flex-nowrap max-lg:justify-center max-lg:items-center">
-                        <div className="h-[150px] w-[2px] bg-[lightgrey]"></div>
-                        <div >
+                        <div className="h-[150px] w-[2px] bg-[lightgrey] none lg:block"></div>
+                        <div className="flex flex-col justify-center items-center" >
                             <UserStar className="text-amber-400 w-20 h-20 pl-[30px]"/>
                             <p className="font-['Public_Sans'] font-bold lg:text-[20px] text-[16px]">Custom Menus</p>
                             <p className="lg:text-[18px] text-[14px]">Made just for you</p>
                         </div>
 
-                        <div className="h-[150px] w-[2px] bg-[lightgrey]"></div>
-                        <div >
+                        <div className="h-[150px] w-[2px] bg-[lightgrey] none lg:block"></div>
+                        <div className="flex flex-col justify-center items-center" >
                             <ShieldCheck className="text-amber-400 w-20 h-20 pl-[30px]"/>
                             <p className="font-['Public_Sans'] font-bold lg:text-[20px] text-[16px]">Premium Quality</p>
                             <p className="lg:text-[18px] text-[14px]">In every detail</p>
                         </div>
 
-                        <div className="h-[150px] w-[2px] bg-[lightgrey]"></div>
-                        <div >
+                        <div className="h-[150px] w-[2px] bg-[lightgrey] none lg:block"></div>
+                        <div className="flex flex-col justify-center items-center" >
                             <Store className="text-amber-400 w-20 h-20 pl-[30px]"/>
                             <p className="font-['Public_Sans'] font-bold lg:text-[20px] text-[16px]">Complete Setup</p>
                             <p className="lg:text-[18px] text-[14px]">We handle it all</p>
                         </div>
 
-                        <div className="h-[150px] w-[2px] bg-[lightgrey]"></div>
-                        <div >
+                        <div className="h-[150px] w-[2px] bg-[lightgrey] none lg:block"></div>
+                        <div className="flex flex-col justify-center items-center">
                             <Smile className="text-amber-400 w-20 h-20 pl-[30px]"/>
                             <p className="font-['Public_Sans'] font-bold lg:text-[20px] text-[16px]">Professional Staff</p>
                             <p className="lg:text-[18px] text-[14px]">Trained & courteous</p>
