@@ -23,7 +23,7 @@ export default function Services(){
                         <h1 className="text-[55px] sm:text-[70px] text-center lg:text-left lg:text-[85px] text-white font-['Playfair_Display'] pl-[30px] leading-none">We Cater.</h1>
                         <p className="text-[70px] sm:text-[90px] text-center lg:text-left lg:text-[110px] font-['Great_vibes'] text-amber-400 leading-none">you Celebrate.</p>
                         <div className="h-[3px] w-[250px] bg-amber-500 ml-[60px]"></div>
-                        <p className="lg:text-[24px] text-[20px] text-white font-[Prata] pt-[15px] text-center lg:text-left">From intimate gatherings to grand celebrations, <span className="block">we bring people together with exceptional food</span> <span className="block pl-[70px]">and seamless service.</span></p>
+                        <p className="lg:text-[24px] text-[20px] text-white font-[Prata] pt-[15px] text-center lg:text-left">From intimate gatherings to grand celebrations, <span className="block">we bring people together with exceptional food</span> <span className="block lg:pl-[70px]">and seamless service.</span></p>
                         
 
                     </div>
@@ -198,11 +198,11 @@ export default function Services(){
                             
 
                         <div className="mt-[40px] pl-[25px]">
-                            <p className="text-amber-400  font-['Public_Sans'] text-[18px] tracking-wider font-bold">CULINARY EXCELLENCE</p>
-                            <h1 className="text-white font-[Prata] text-[50px]">Diverse Cuisines, Endless Delights</h1>
+                            <p className="text-amber-400  font-['Public_Sans'] lg:text-[18px] text-[16px] tracking-wider font-bold">CULINARY EXCELLENCE</p>
+                            <h1 className="text-white font-[Prata] lg:text-[50px] text-[30px]">Diverse Cuisines, Endless Delights</h1>
                             <div className="bg-amber-400 h-[3px] w-[50px] mt-[15px]"></div>
 
-                        <div className="mt-[30px] flex max-lg:overflow-x-auto">
+                        <div className="mt-[30px] flex max-lg:overflow-x-auto gap-2">
                                 
                                 <div className="flex flex-col">
                                     <img className="h-[100px] w-[100px]" src="/images/choleBhature.png" alt="" />
