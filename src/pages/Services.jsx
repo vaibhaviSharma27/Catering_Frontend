@@ -152,7 +152,7 @@ export default function Services(){
 
                         <ArrowRight className="h-14 w-14 text-amber-400 mt-[60px] hidden lg:block"/>
                         
-                        <ArrowDown className="h-16 w-16 text-amber-400 400 mt-[25px] mb-[20px] lg:hidden block"/>
+                        <ArrowDown className="h-16 w-16 text-amber-400 400 mt-[20px] mb-[20px] lg:hidden block"/>
 
                          <div className="flex flex-col gap-[20px] justify-center items-center">
                             <div className="bg-black h-[70px] w-[70px] border border-amber-400 border-[2px] rounded-full"><ClipboardList className="text-amber-400 h-16 w-14 pl-[10px]"/></div>
@@ -162,7 +162,7 @@ export default function Services(){
                         </div>
 
                         <ArrowRight className="h-14 w-14 text-amber-400 mt-[60px] hidden lg:block"/>
-                         <ArrowDown className="h-16 w-16 text-amber-400  mt-[25px] mb-[20px] lg:hidden block"/>
+                         <ArrowDown className="h-16 w-16 text-amber-400  mt-[20px] mb-[20px] lg:hidden block"/>
 
                         <div className="flex flex-col gap-[13px] justify-center items-center">
                             <div className="bg-black h-[70px] w-[70px] border border-amber-400 border-[2px] rounded-full"><ChefHat className="text-amber-400 h-16 w-14 pl-[10px]"/></div>
@@ -172,7 +172,7 @@ export default function Services(){
                         </div>
 
                         <ArrowRight className="h-14 w-14 text-amber-400 mt-[60px] hidden lg:block"/>
-                        <ArrowDown className="h-16 w-16 text-amber-400 mt-[25px] mb-[20px] lg:hidden block"/>
+                        <ArrowDown className="h-16 w-16 text-amber-400 mt-[20px] mb-[20px] lg:hidden block"/>
 
                         <div className="flex flex-col gap-[13px] justify-center items-center">
                             <div className="bg-black h-[70px] w-[70px] border border-amber-400 border-[2px] rounded-full"><HandPlatter className="text-amber-400 h-16 w-14 pl-[10px]"/></div>
@@ -182,7 +182,7 @@ export default function Services(){
                         </div>
 
                         <ArrowRight className="h-14 w-14 text-amber-400 mt-[60px] hidden lg:block"/>
-                         <ArrowDown className="h-16 w-16 text-amber-400 mt-[25px] mb-[20px] lg:hidden block"/>
+                         <ArrowDown className="h-16 w-16 text-amber-400 mt-[20px] mb-[20px] lg:hidden block"/>
 
                         <div className="flex flex-col gap-[13px] justify-center items-center lg:pr-[0] ">
                             <div className="bg-black h-[70px] w-[70px] border border-amber-400 border-[2px] rounded-full"><PartyPopper className="text-amber-400 h-16 w-14 pl-[10px]"/></div>
@@ -310,7 +310,7 @@ export default function Services(){
                             <div className="lg:h-[230px] h-[350px] w-[450px] max-lg:w-[90%] mt-[60px] mb-[30px] ml-[60px] max-lg:ml-0 rounded-[20px] bg-black max-lg:flex-col max-lg:justify-center max-lg:items-center lg:flex-row">
                                 <h1 className="text-white font-[Prata] pl-[20px] text-[30px] pt-[25px] font-bold">Ready to Plan Your Event ?</h1>
                                 <p className="text-[20px] text-white pl-[20px]">Let us create a memorable experience <span className="block">for you and your guests.</span></p>
-                               <div className="flex"><button onClick={()=>navigator("/contact")} className="bg-[gold] rounded-[10px] lg:h-[30px] h-[60px] w-[200px] max-sm:w-[160px] ml-[30px] mt-[20px] text-[brown] text-[18px] flex gap-[20px] pl-[10px] font-['Public_Sans'] font-bold">Book your event <div className="bg-[brown] h-[24px] w-[24px] rounded-full mt-[2px]"><ChevronRight className="text-amber-400 h-6 w-6" /></div></button>
+                               <div className="flex"><button onClick={()=>navigator("/contact")} className="bg-[gold] rounded-[10px] lg:h-[30px] h-[80px] w-[200px] max-sm:w-[160px] ml-[30px] mt-[20px] text-[brown] text-[18px] flex gap-[20px] pl-[10px] font-['Public_Sans'] font-bold">Book your event <div className="bg-[brown] h-[24px] w-[24px] rounded-full mt-[2px]"><ChevronRight className="text-amber-400 h-6 w-6" /></div></button>
                                  <img className="h-[100px] w-[150px] ml-[40px] mb-[100px]" src="/images/platter.png" alt="" /></div>
 
                                
