@@ -20,8 +20,8 @@ export default function Services(){
                     <div className="relative flex flex-col sm:ml-16 lg:ml-[270px] mt-[40px]" >
                         
                         <p className="flex text-[22px] font-[monospace] text-center lg:text-left text-amber-400 pl-[95px]">OUR SERVICES <div className="h-[1px] w-[70px] bg-amber-400 ml-[10px] mt-[15px]"></div></p>
-                        <h1 className="text-[55px] sm:text-[70px] text-center lg:text-left lg:text-[85px] text-white font-['Playfair_Display'] pl-[30px] leading-none">We Cater.</h1>
-                        <p className="text-[70px] sm:text-[90px] text-center lg:text-left lg:text-[110px] font-['Great_vibes'] text-amber-400 leading-none">you Celebrate.</p>
+                        <h1 className="text-[55px] sm:text-[70px] text-center lg:text-left lg:text-[85px] text-white font-['Playfair_Display'] pl-[30px] leading-hidden">We Cater.</h1>
+                        <p className="text-[70px] sm:text-[90px] text-center lg:text-left lg:text-[110px] font-['Great_vibes'] text-amber-400 leading-hidden">you Celebrate.</p>
                         <div className="h-[3px] w-[250px] bg-amber-500 ml-[60px]"></div>
                         <p className="lg:text-[24px] text-[20px] text-white font-[Prata] pt-[15px] text-center lg:text-left">From intimate gatherings to grand celebrations, <span className="block">we bring people together with exceptional food</span> <span className="block lg:pl-[70px]">and seamless service.</span></p>
                         
@@ -43,28 +43,28 @@ export default function Services(){
                     </div>
 
                     <div className="flex mt-[20px] gap-2 flex-wrap lg:flex-nowrap max-lg:justify-center max-lg:items-center">
-                        <div className="h-[150px] w-[2px] bg-[lightgrey] none lg:block"></div>
+                        <div className="h-[150px] w-[2px] bg-[lightgrey] hidden lg:block"></div>
                         <div className="flex flex-col justify-center items-center" >
                             <UserStar className="text-amber-400 w-20 h-20 lg:pl-[30px]"/>
                             <p className="font-['Public_Sans'] font-bold lg:text-[20px] text-[16px]">Custom Menus</p>
                             <p className="lg:text-[18px] text-[14px]">Made just for you</p>
                         </div>
 
-                        <div className="h-[150px] w-[2px] bg-[lightgrey] none lg:block"></div>
+                        <div className="h-[150px] w-[2px] bg-[lightgrey] hidden lg:block"></div>
                         <div className="flex flex-col justify-center items-center" >
                             <ShieldCheck className="text-amber-400 w-20 h-20 lg:pl-[30px]"/>
                             <p className="font-['Public_Sans'] font-bold lg:text-[20px] text-[16px]">Premium Quality</p>
                             <p className="lg:text-[18px] text-[14px]">In every detail</p>
                         </div>
 
-                        <div className="h-[150px] w-[2px] bg-[lightgrey] none lg:block"></div>
+                        <div className="h-[150px] w-[2px] bg-[lightgrey] hidden lg:block"></div>
                         <div className="flex flex-col justify-center items-center" >
                             <Store className="text-amber-400 w-20 h-20 lg:pl-[30px]"/>
                             <p className="font-['Public_Sans'] font-bold lg:text-[20px] text-[16px]">Complete Setup</p>
                             <p className="lg:text-[18px] text-[14px]">We handle it all</p>
                         </div>
 
-                        <div className="h-[150px] w-[2px] bg-[lightgrey] none lg:block"></div>
+                        <div className="h-[150px] w-[2px] bg-[lightgrey] hidden lg:block"></div>
                         <div className="flex flex-col justify-center items-center">
                             <Smile className="text-amber-400 w-20 h-20 lg:pl-[30px]"/>
                             <p className="font-['Public_Sans'] font-bold lg:text-[20px] text-[16px]">Professional Staff</p>
@@ -150,7 +150,7 @@ export default function Services(){
                             <div className="h-[3px] w-[50px] bg-amber-400 mt-[10px]"></div>
                         </div>
 
-                        <ArrowRight className="h-14 w-14 text-amber-400 mt-[60px]"/>
+                        <ArrowRight className="h-14 w-14 text-amber-400 mt-[60px] hidden lg:block"/>
 
                          <div className="flex flex-col gap-[20px] justify-center items-center">
                             <div className="bg-black h-[70px] w-[70px] border border-amber-400 border-[2px] rounded-full"><ClipboardList className="text-amber-400 h-16 w-14 pl-[10px]"/></div>
@@ -159,7 +159,7 @@ export default function Services(){
                             <div className="h-[3px] w-[50px] bg-amber-400 mt-[10px]"></div>
                         </div>
 
-                        <ArrowRight className="h-14 w-14 text-amber-400 mt-[60px]"/>
+                        <ArrowRight className="h-14 w-14 text-amber-400 mt-[60px] hidden lg:block"/>
 
                         <div className="flex flex-col gap-[13px] justify-center items-center">
                             <div className="bg-black h-[70px] w-[70px] border border-amber-400 border-[2px] rounded-full"><ChefHat className="text-amber-400 h-16 w-14 pl-[10px]"/></div>
@@ -168,7 +168,7 @@ export default function Services(){
                             <div className="h-[3px] w-[50px] bg-amber-400 mt-[10px]"></div>
                         </div>
 
-                        <ArrowRight className="h-14 w-14 text-amber-400 mt-[60px]"/>
+                        <ArrowRight className="h-14 w-14 text-amber-400 mt-[60px] hidden lg:block"/>
 
                         <div className="flex flex-col gap-[13px] justify-center items-center">
                             <div className="bg-black h-[70px] w-[70px] border border-amber-400 border-[2px] rounded-full"><HandPlatter className="text-amber-400 h-16 w-14 pl-[10px]"/></div>
@@ -177,9 +177,9 @@ export default function Services(){
                             <div className="h-[3px] w-[50px] bg-amber-400 mt-[10px]"></div>
                         </div>
 
-                        <ArrowRight className="h-14 w-14 text-amber-400 mt-[60px]"/>
+                        <ArrowRight className="h-14 w-14 text-amber-400 mt-[60px] hidden lg:block"/>
 
-                        <div className="flex flex-col gap-[15px] justify-center items-center">
+                        <div className="flex flex-col gap-[13px] justify-center items-center lg:pr-[0] pr-[20px]">
                             <div className="bg-black h-[70px] w-[70px] border border-amber-400 border-[2px] rounded-full"><PartyPopper className="text-amber-400 h-16 w-14 pl-[10px]"/></div>
                             <p className="font-bold text-[26px] font-[Prata]">Celebrate</p>
                             <p className="text-[16px] font-['Public_Sans'] text-center">You relax <span className="block"> & enjoy, we take </span> <span className="block">care of the rest.</span></p> 
@@ -194,7 +194,7 @@ export default function Services(){
                     </div>
 
                     <div className="relative bg-black h-[50vh] border-[2px] border-t-amber-400 border-black">
-                        <div className=" absolute inset-0 lg:bg-[url('/images/spices.png')] bg-none lg:bg- bg-contain bg-right bg-no-repeat flex flex-col leading-tight">
+                        <div className=" absolute inset-0 lg:bg-[url('/images/spices.png')] bg-hidden lg:bg- bg-contain bg-right bg-no-repeat flex flex-col leading-tight">
                             
 
                         <div className="mt-[40px] pl-[25px]">
