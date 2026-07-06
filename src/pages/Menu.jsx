@@ -22,7 +22,7 @@ export default function Menu(){
         </div>
 
         <div className="flex flex-col justify-center items-center mx-[20px] bg-[url('/images/backG.png')] bg-cover bg-no-repeat">
-            <p className="text-[32px] font-[prata] flex pt-[20px]"><div className="bg-amber-400 h-[3px] w-[70px] mr-[10px] mt-[20px] text-center "></div> OUR MENU CREATION JOURNEY <div className="bg-amber-400 h-[3px] w-[70px] ml-[10px] mt-[20px]"></div></p>
+            <p className="text-[32px] font-[prata] flex pt-[20px] text-center"><div className="bg-amber-400 h-[3px] w-[70px] mr-[10px] mt-[20px] "></div> OUR MENU CREATION JOURNEY <div className="bg-amber-400 h-[3px] w-[70px] ml-[10px] mt-[20px]"></div></p>
             <div className="flex flex-col lg:flex-row items-center mt-[50px] gap-10 px-5">
                 <div className="flex flex-col justify-center items-center">
                     <div className="bg-black rounded-full h-[70px] w-[70px]"><MessageCircleMore className="h-14 w-14 text-red-600 pt-[10px] pl-[10px]" /></div>
