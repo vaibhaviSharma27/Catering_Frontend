@@ -42,33 +42,33 @@ export default function Services(){
                         <p className="text-[20px] font-[Prata] ">Every occasion is unique. Our services are crafted to match your vision, <span className="block">theme, and expectations.</span></p>
                     </div>
 
-                    <div className="flex mt-[20px] gap-3 flex-wrap lg:flex-nowrap max-lg:justify-center max-lg:items-center">
+                    <div className="flex mt-[20px] gap-1 flex-wrap lg:flex-nowrap max-lg:justify-center max-lg:items-center">
                         <div className="h-[150px] w-[2px] bg-[lightgrey]"></div>
                         <div >
                             <UserStar className="text-amber-400 w-20 h-20 pl-[30px]"/>
-                            <p className="font-['Public_Sans'] font-bold text-[20px]">Custom Menus</p>
-                            <p className="text-[18px]">Made just for you</p>
+                            <p className="font-['Public_Sans'] font-bold lg:text-[20px] text-[16px]">Custom Menus</p>
+                            <p className="lg:text-[18px] text-[14px]">Made just for you</p>
                         </div>
 
                         <div className="h-[150px] w-[2px] bg-[lightgrey]"></div>
                         <div >
                             <ShieldCheck className="text-amber-400 w-20 h-20 pl-[30px]"/>
-                            <p className="font-['Public_Sans'] font-bold text-[20px]">Premium Quality</p>
-                            <p className="text-[18px]">In every detail</p>
+                            <p className="font-['Public_Sans'] font-bold lg:text-[20px] text-[16px]">Premium Quality</p>
+                            <p className="lg:text-[18px] text-[14px]">In every detail</p>
                         </div>
 
                         <div className="h-[150px] w-[2px] bg-[lightgrey]"></div>
                         <div >
                             <Store className="text-amber-400 w-20 h-20 pl-[30px]"/>
-                            <p className="font-['Public_Sans'] font-bold text-[20px]">Complete Setup</p>
-                            <p className="text-[18px]">We handle it all</p>
+                            <p className="font-['Public_Sans'] font-bold lg:text-[20px] text-[16px]">Complete Setup</p>
+                            <p className="lg:text-[18px] text-[14px]">We handle it all</p>
                         </div>
 
                         <div className="h-[150px] w-[2px] bg-[lightgrey]"></div>
                         <div >
                             <Smile className="text-amber-400 w-20 h-20 pl-[30px]"/>
-                            <p className="font-['Public_Sans'] font-bold text-[20px]">Professional Staff</p>
-                            <p className="text-[18px]">Trained & courteous</p>
+                            <p className="font-['Public_Sans'] font-bold lg:text-[20px] text-[16px]">Professional Staff</p>
+                            <p className="lg:text-[18px] text-[14px]">Trained & courteous</p>
                         </div>
 
                         </div>
