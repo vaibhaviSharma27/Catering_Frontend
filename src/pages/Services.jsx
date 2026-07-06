@@ -307,10 +307,10 @@ export default function Services(){
 
                     </div>
                     
-                            <div className="h-[230px] w-[450px] max-lg:w-[90%] mt-[60px] mb-[30px] ml-[60px] max-lg:ml-0 rounded-[20px] bg-black max-lg:flex-col max-lg:justify-center max-lg:items-center lg:flex-row">
+                            <div className="lg:h-[230px] h-[350px] w-[450px] max-lg:w-[90%] mt-[60px] mb-[30px] ml-[60px] max-lg:ml-0 rounded-[20px] bg-black max-lg:flex-col max-lg:justify-center max-lg:items-center lg:flex-row">
                                 <h1 className="text-white font-[Prata] pl-[20px] text-[30px] pt-[25px] font-bold">Ready to Plan Your Event ?</h1>
                                 <p className="text-[20px] text-white pl-[20px]">Let us create a memorable experience <span className="block">for you and your guests.</span></p>
-                               <div className="flex"><button onClick={()=>navigator("/contact")} className="bg-[gold] rounded-[10px] h-[30px] w-[200px] max-sm:w-[160px] ml-[30px] mt-[20px] text-[brown] text-[18px] flex gap-[20px] pl-[10px] font-['Public_Sans'] font-bold">Book your event <div className="bg-[brown] h-[24px] w-[24px] rounded-full mt-[2px]"><ChevronRight className="text-amber-400 h-6 w-6" /></div></button>
+                               <div className="flex"><button onClick={()=>navigator("/contact")} className="bg-[gold] rounded-[10px] lg:h-[30px] h-[60px] w-[200px] max-sm:w-[160px] ml-[30px] mt-[20px] text-[brown] text-[18px] flex gap-[20px] pl-[10px] font-['Public_Sans'] font-bold">Book your event <div className="bg-[brown] h-[24px] w-[24px] rounded-full mt-[2px]"><ChevronRight className="text-amber-400 h-6 w-6" /></div></button>
                                  <img className="h-[100px] w-[150px] ml-[40px] mb-[100px]" src="/images/platter.png" alt="" /></div>
 
                                
