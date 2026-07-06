@@ -15,17 +15,17 @@ export default function Home() {
       icon: "📅",
     },
     {
-      number: "2000+",
+      number: "1000+",
       text: "Events Organised",
       icon: "👥",
     },
     {
-      number: "5000+",
+      number: "500+",
       text: "Happy Customers Served",
       icon: "🙋",
     },
     {
-      number: "1,000+",
+      number: "300+",
       text: "Variety of Dishes",
       icon: "🍽️",
     },
@@ -100,10 +100,10 @@ export default function Home() {
   {/* SINGLE RESPONSIVE GRID */}
   <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-10 justify-items-center">
     {[
-      { img: "/images/juices.png", title: "Juices & Mocktails", count: "500+" },
-      { img: "/images/dishes.png", title: "Indian Dishes", count: "100+" },
-      { img: "/images/sweets.png", title: "Indian Sweets", count: "100+" },
-      { img: "/images/fastFood.png", title: "Fast Food Options", count: "200+" },
+      { img: "/images/juices.png", title: "Juices & Mocktails", count: "50+" },
+      { img: "/images/dishes.png", title: "Indian Dishes", count: "50+" },
+      { img: "/images/sweets.png", title: "Indian Sweets", count: "50+" },
+      { img: "/images/fastFood.png", title: "Fast Food Options", count: "50+" },
       { img: "/images/dessert.png", title: "Dessert Types", count: "50+" },
       { img: "/images/liveCounter.png", title: "Live Counters", count: "50+" },
     ].map((item, index) => (
@@ -180,15 +180,15 @@ export default function Home() {
                <div className="grid grid-cols-1 lg:grid-cols-3 gap-[20px] mt-[15px] px-4 justify-items-center">
 
                <div className="bg-[url('/images/post.png')] h-[350px] w-full max-w-[470px] bg-cover bg-center">
-               <p className="text-[16px] font-[cursive] w-[75%] pt-[70px] pl-[150px]">"The food was exceptional and every guest appreciated the quality and presentation. The team handled everything professionally, making our family function completely stress-free."</p>
+               <p className="text-[16px] font-[cursive] lg:w-[75%] w-[80%] pt-[70px] pl-[150px]">"The food was exceptional and every guest appreciated the quality and presentation. The team handled everything professionally, making our family function completely stress-free."</p>
                </div>
 
                <div className="bg-[url('/images/post.png')] h-[350px] w-full max-w-[470px] bg-cover bg-center">
-               <p className="text-[16px] font-[cursive] w-[75%]  pt-[70px] pl-[150px]">"We booked them for our daughter's wedding, and they exceeded all expectations. From the menu variety to the service, everything was perfectly organized."</p>
+               <p className="text-[16px] font-[cursive] lg:w-[75%] w-[80%] pt-[70px] pl-[150px]">"We booked them for our daughter's wedding, and they exceeded all expectations. From the menu variety to the service, everything was perfectly organized."</p>
                </div>
 
                <div className="bg-[url('/images/post.png')] h-[350px] w-full max-w-[470px] bg-cover bg-center">
-               <p className="text-[16px] font-[cursive] w-[75%]  pt-[70px] pl-[150px]">"Excellent food, punctual service, and a very cooperative staff. Our corporate event was a huge success thanks to their attention to detail and hospitality."</p>
+               <p className="text-[16px] font-[cursive] lg:w-[75%] w-[80%]  pt-[70px] pl-[150px]">"Excellent food, punctual service, and a very cooperative staff. Our corporate event was a huge success thanks to their attention to detail and hospitality."</p>
                
                
                </div>
