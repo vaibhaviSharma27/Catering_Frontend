@@ -22,7 +22,7 @@ export default function Menu(){
         </div>
 
         <div className="flex flex-col justify-center items-center mx-[20px] bg-[url('/images/backG.png')] bg-cover bg-no-repeat">
-            <p className="text-[32px] font-[prata] flex pt-[20px]"><div className="bg-amber-400 h-[3px] w-[70px] mr-[10px] mt-[20px]  "></div> OUR MENU CREATION JOURNEY <div className="bg-amber-400 h-[3px] w-[70px] ml-[10px] mt-[20px]"></div></p>
+            <p className="text-[32px] font-[prata] flex pt-[20px]"><div className="bg-amber-400 h-[3px] w-[70px] mr-[10px] mt-[20px] text-center "></div> OUR MENU CREATION JOURNEY <div className="bg-amber-400 h-[3px] w-[70px] ml-[10px] mt-[20px]"></div></p>
             <div className="flex flex-col lg:flex-row items-center mt-[50px] gap-10 px-5">
                 <div className="flex flex-col justify-center items-center">
                     <div className="bg-black rounded-full h-[70px] w-[70px]"><MessageCircleMore className="h-14 w-14 text-red-600 pt-[10px] pl-[10px]" /></div>
@@ -141,7 +141,7 @@ export default function Menu(){
         <p className="text-[22px] text-white font-[Prata] font-bold ">Share your ideas and we will curate a menu that's <span className="block">as unique as your celebration.</span></p>
 
            <button className="bg-amber-400 flex gap-[15px] text-[19px] font-[Prata] font-bold rounded-[10px] p-[7px] ml-0 md:ml-[330px] mt-[15px]">Discuss Your Menu With Us <div className="rounded-full bg-amber-400 border border-black border-[2px] h-[25px] w-[25px] " ><ArrowRight className="text-black h-6 w-6"/></div></button>
-         <div className="flex ml-[300px] pt-[8px]"><div className="bg-black h-[25px] w-[25px] rounded-full border border-amber-400 ml-[15px]"><Phone className="text-amber-400 h-5 w-5 pl-[5px]" /></div>
+         <div className="flex lg:ml-[300px] pt-[8px]"><div className="bg-black h-[25px] w-[25px] rounded-full border border-amber-400 ml-[15px]"><Phone className="text-amber-400 h-5 w-5 pl-[5px]" /></div>
            <p className="text-[18px] font-[cursive] pl-[10px] font-bold text-white">CALL AT : +917876167162</p></div>
           
            </div>
