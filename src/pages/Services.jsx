@@ -152,7 +152,7 @@ export default function Services(){
 
                         <ArrowRight className="h-14 w-14 text-amber-400 mt-[60px] hidden lg:block"/>
                         
-                        <ArrowDown className="h-16 w-16 text-amber-400 400 mt-[20px] mb-[20px] lg:hidden block"/>
+                        <ArrowDown className="h-16 w-16 text-amber-400 400 mt-[10px] mb-[20px] lg:hidden block"/>
 
                          <div className="flex flex-col gap-[20px] justify-center items-center">
                             <div className="bg-black h-[70px] w-[70px] border border-amber-400 border-[2px] rounded-full"><ClipboardList className="text-amber-400 h-16 w-14 pl-[10px]"/></div>
@@ -162,7 +162,7 @@ export default function Services(){
                         </div>
 
                         <ArrowRight className="h-14 w-14 text-amber-400 mt-[60px] hidden lg:block"/>
-                         <ArrowDown className="h-16 w-16 text-amber-400  mt-[20px] mb-[20px] lg:hidden block"/>
+                         <ArrowDown className="h-16 w-16 text-amber-400 mt-[10px] mb-[20px] lg:hidden block"/>
 
                         <div className="flex flex-col gap-[13px] justify-center items-center">
                             <div className="bg-black h-[70px] w-[70px] border border-amber-400 border-[2px] rounded-full"><ChefHat className="text-amber-400 h-16 w-14 pl-[10px]"/></div>
@@ -172,7 +172,7 @@ export default function Services(){
                         </div>
 
                         <ArrowRight className="h-14 w-14 text-amber-400 mt-[60px] hidden lg:block"/>
-                        <ArrowDown className="h-16 w-16 text-amber-400 mt-[20px] mb-[20px] lg:hidden block"/>
+                        <ArrowDown className="h-16 w-16 text-amber-400 mt-[10px] mb-[20px] lg:hidden block"/>
 
                         <div className="flex flex-col gap-[13px] justify-center items-center">
                             <div className="bg-black h-[70px] w-[70px] border border-amber-400 border-[2px] rounded-full"><HandPlatter className="text-amber-400 h-16 w-14 pl-[10px]"/></div>
@@ -182,7 +182,7 @@ export default function Services(){
                         </div>
 
                         <ArrowRight className="h-14 w-14 text-amber-400 mt-[60px] hidden lg:block"/>
-                         <ArrowDown className="h-16 w-16 text-amber-400 mt-[20px] mb-[20px] lg:hidden block"/>
+                         <ArrowDown className="h-16 w-16 text-amber-400 mt-[10px] mb-[20px] lg:hidden block"/>
 
                         <div className="flex flex-col gap-[13px] justify-center items-center lg:pr-[0] ">
                             <div className="bg-black h-[70px] w-[70px] border border-amber-400 border-[2px] rounded-full"><PartyPopper className="text-amber-400 h-16 w-14 pl-[10px]"/></div>
@@ -198,7 +198,7 @@ export default function Services(){
 
                     </div>
 
-                    <div className="relative bg-black h-[50vh] border-[2px] border-t-amber-400 border-black">
+                    <div className="relative bg-black lg:h-[50vh] h-[55vh] border-[2px] border-t-amber-400 border-black">
                         <div className=" absolute inset-0 lg:bg-[url('/images/spices.png')] bg-hidden lg:bg- bg-contain bg-right bg-no-repeat flex flex-col leading-tight">
                             
 
