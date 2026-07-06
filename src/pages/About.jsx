@@ -85,7 +85,7 @@ export default function About() {
       Since 1997
     </p>
 
-    <p className="lg:text-[16px] text-[22px] md:text-[30px] text-black font-[Sofia] mt-2">
+    <p className="sm:text-[16px] text-[22px] md:text-[30px] text-black font-[Sofia] mt-2">
       Three decades of passion, dedication and
       <span className="block">delicious food that brings people together.</span>
     </p>
