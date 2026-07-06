@@ -65,10 +65,10 @@ export default function About() {
   <div className="absolute inset-0 bg-[url('/images/backG.png')] bg-contain bg-no-repeat bg-right "></div>
 
   {/* Image overlay (IMPORTANT FIX) */}
-  <div className="absolute inset-0 bg-white/30"></div>
+  {/* <div className="absolute inset-0 bg-white/30"></div> */}
 
   {/* Decorative background image */}
-  <div className="absolute inset-0 bg-[url('https://tse3.mm.bing.net/th/id/OIP.MN1gY2L87m6TSNUZGFQwhgHaE8?w=996&h=664&rs=1&pid=ImgDetMain&o=7&rm=3')] bg-contain bg-no-repeat md:bg-right h-full bg-center opacity-40 lg:opacity-100"></div>
+  <div className="absolute inset-0 lg:bg-[url('https://tse3.mm.bing.net/th/id/OIP.MN1gY2L87m6TSNUZGFQwhgHaE8?w=996&h=664&rs=1&pid=ImgDetMain&o=7&rm=3')] bg-contain bg-no-repeat md:bg-right h-full bg-center opacity-40 lg:opacity-100"></div>
 
   {/* CONTENT LAYER */}
   <div className="relative z-10 h-full flex flex-col justify-center px-6 sm:px-10 lg:px-24">
