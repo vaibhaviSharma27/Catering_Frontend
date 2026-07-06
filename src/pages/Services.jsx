@@ -269,7 +269,7 @@ export default function Services(){
                         <div className="flex lg:flex-row max-lg:flex-col max-lg:justify-center max-lg:items-center items-start gap-8">
                     <div className="flex flex-col h-auto lg:h-[30vh] max-lg:justify-center max-lg:items-center pt-[30px] pl-5 lg:pl-[50px]">
                         <p className="text-[gold] text-[18px] font-bold">WE HANDLE EVERYTHING</p>
-                        <h1 className="text-[35px] font-[Prata]">So You Can Enjoy Stress-Free</h1>
+                        <h1 className="text-[35px] font-[Prata] text-center">So You Can Enjoy Stress-Free</h1>
                         
 
                         <div className="flex mt-[20px] gap-3 flex-wrap lg:flex-nowrap max-lg:justify-center max-lg:items-center">
