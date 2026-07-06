@@ -218,7 +218,7 @@ export default function Services(){
 
                                 <div className="flex flex-col">
                                     <img className="h-[100px] w-[100px]" src="/images/pizza.png" alt="" />
-                                    <p className="text-white text-[20px] font-['Public_Sans'] pl-[15px]">Continental</p>
+                                    <p className="text-white text-[20px] font-['Public_Sans'] pl-[15px]">Fast Food</p>
                                 </div>
                                 
                                 <div className="h-[150px] w-[2px] bg-[lightgrey] ml-[15px]"></div>
@@ -244,11 +244,11 @@ export default function Services(){
                                 
                                 <div className="h-[150px] w-[2px] bg-[lightgrey] ml-[15px]"></div>
 
-                                
+{/*                                 
                                  <div className="flex flex-col ml-[15px]">
                                     <img className="h-[100px] w-[100px]"  src="/images/burger.png" alt="" />
                                     <p className="text-white text-[20px] font-['Public_Sans'] pl-[15px]">Italian</p>
-                                </div>
+                                </div> */}
                                 </div>
             
                             
