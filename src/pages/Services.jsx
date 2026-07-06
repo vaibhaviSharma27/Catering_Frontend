@@ -19,10 +19,10 @@ export default function Services(){
                    
                     <div className="relative flex flex-col sm:ml-16 lg:ml-[270px] mt-[40px]" >
                         
-                        <p className="flex text-[22px] font-[monospace] text-center lg:text-left text-amber-400 lg:pl-[95px] pl-[280px]">OUR SERVICES <div className="h-[1px] w-[70px] bg-amber-400 ml-[10px] mt-[15px]"></div></p>
+                        <p className="flex text-[22px] font-[monospace] text-center lg:text-left text-amber-400 pl-[95px]">OUR SERVICES <div className="h-[1px] w-[70px] bg-amber-400 ml-[10px] mt-[15px]"></div></p>
                         <h1 className="text-[55px] sm:text-[70px] text-center lg:text-left lg:text-[75px] text-white font-['Playfair_Display'] pl-[30px] lg:leading-tight">We Cater.</h1>
                         <p className="text-[70px] sm:text-[90px] text-center lg:text-left lg:text-[100px] font-['Great_vibes'] text-amber-400 lg:leading-tight">you Celebrate.</p>
-                        <div className="h-[3px] w-[250px] bg-amber-500 lg:ml-[60px] ml-[200px]"></div>
+                        <div className="h-[3px] w-[250px] bg-amber-500 ml-[60px]"></div>
                         <p className="lg:text-[24px] text-[20px] text-white font-[Prata] pt-[15px] text-center lg:text-left">From intimate gatherings to grand celebrations, <span className="block">we bring people together with exceptional food</span> <span className="block lg:pl-[70px]">and seamless service.</span></p>
                         
 
@@ -42,7 +42,7 @@ export default function Services(){
                         <p className="lg:text-[20px] text-[16px] font-[Prata] ">Every occasion is unique. Our services are crafted to match your vision, <span className="block">theme, and expectations.</span></p>
                     </div>
 
-                    <div className="flex mt-[20px] gap-2 flex-wrap lg:flex-nowrap max-lg:justify-center max-lg:items-center">
+                    <div className="flex mt-[20px] gap-3 flex-wrap lg:flex-nowrap max-lg:justify-center max-lg:items-center">
                         <div className="h-[150px] w-[2px] bg-[lightgrey] hidden lg:block"></div>
                         <div className="flex flex-col justify-center items-center" >
                             <UserStar className="text-amber-400 lg:w-20 lg:h-20 h-12 w-12 lg:pl-[30px]"/>
