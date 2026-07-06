@@ -250,6 +250,8 @@ export default function Services(){
                                     <p className="text-white text-[20px] font-['Public_Sans'] pl-[15px]">Italian</p>
                                 </div> */}
                                 </div>
+
+                                <p className="text-center text-[20px] font-bold text-['Great-vibes'] text-white block lg:hidden">SCROLL LEFT FOR MORE</p>
             
                             
                             </div>
