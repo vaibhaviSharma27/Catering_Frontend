@@ -180,15 +180,15 @@ export default function Home() {
                <div className="grid grid-cols-1 lg:grid-cols-3 gap-[20px] mt-[15px] px-4 justify-items-center">
 
                <div className="bg-[url('/images/post.png')] h-[350px] w-full max-w-[470px] bg-cover bg-center">
-               <p className="lg:text-[16px] font-bold font-[cursive] lg:w-[75%] w-full font-bold pt-[100px] lg:pl-[150px] pl-[80px] pr-[50px]">"The food was exceptional and every guest appreciated the quality and presentation. The team handled everything professionally, making our family function completely stress-free."</p>
+               <p className="lg:text-[16px] font-bold font-[cursive] lg:w-[75%] w-full pt-[100px] lg:pl-[150px] pl-[80px] pr-[50px]">"The food was exceptional and every guest appreciated the quality and presentation. The team handled everything professionally, making our family function completely stress-free."</p>
                </div>
 
                <div className="bg-[url('/images/post.png')] h-[350px] w-full max-w-[470px] bg-cover bg-center">
-               <p className="lg:text-[16px] font-bold font-[cursive] lg:w-[75%] w-full font-bold pt-[10px] lg:pl-[150px] pl-[80px] pr-[50px]">"We booked them for our daughter's wedding, and they exceeded all expectations. From the menu variety to the service, everything was perfectly organized."</p>
+               <p className="lg:text-[16px] font-bold font-[cursive] lg:w-[75%] w-full pt-[100px] lg:pl-[150px] pl-[80px] pr-[50px]">"We booked them for our daughter's wedding, and they exceeded all expectations. From the menu variety to the service, everything was perfectly organized."</p>
                </div>
 
                <div className="bg-[url('/images/post.png')] h-[350px] w-full max-w-[470px] bg-cover bg-center">
-               <p className="lg:text-[16px] font-bold font-[cursive] lg:w-[75%] w-full font-bold pt-[100px] lg:pl-[150px] pl-[80px] pr-[50px]">"Excellent food, punctual service, and a very cooperative staff. Our corporate event was a huge success thanks to their attention to detail and hospitality."</p>
+               <p className="lg:text-[16px] font-bold font-[cursive] lg:w-[75%] w-full pt-[100px] lg:pl-[150px] pl-[80px] pr-[50px]">"Excellent food, punctual service, and a very cooperative staff. Our corporate event was a huge success thanks to their attention to detail and hospitality."</p>
                
                
                </div>
