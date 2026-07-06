@@ -152,7 +152,7 @@ export default function Services(){
 
                         <ArrowRight className="h-14 w-14 text-amber-400 mt-[60px] hidden lg:block"/>
                         
-                        <ArrowDown className="h-14 w-14 text-amber-400 mt-[60px] lg:hidden block"/>
+                        <ArrowDown className="h-16 w-16 text-amber-400 400 mt-[25px] mb-[20px] lg:hidden block"/>
 
                          <div className="flex flex-col gap-[20px] justify-center items-center">
                             <div className="bg-black h-[70px] w-[70px] border border-amber-400 border-[2px] rounded-full"><ClipboardList className="text-amber-400 h-16 w-14 pl-[10px]"/></div>
@@ -162,7 +162,7 @@ export default function Services(){
                         </div>
 
                         <ArrowRight className="h-14 w-14 text-amber-400 mt-[60px] hidden lg:block"/>
-                         <ArrowDown className="h-14 w-14 text-amber-400 mt-[60px] lg:hidden block"/>
+                         <ArrowDown className="h-16 w-16 text-amber-400  mt-[25px] mb-[20px] lg:hidden block"/>
 
                         <div className="flex flex-col gap-[13px] justify-center items-center">
                             <div className="bg-black h-[70px] w-[70px] border border-amber-400 border-[2px] rounded-full"><ChefHat className="text-amber-400 h-16 w-14 pl-[10px]"/></div>
@@ -172,7 +172,7 @@ export default function Services(){
                         </div>
 
                         <ArrowRight className="h-14 w-14 text-amber-400 mt-[60px] hidden lg:block"/>
-                         <ArrowDown className="h-14 w-14 text-amber-400 mt-[60px] lg:hidden block"/>
+                        <ArrowDown className="h-16 w-16 text-amber-400 mt-[25px] mb-[20px] lg:hidden block"/>
 
                         <div className="flex flex-col gap-[13px] justify-center items-center">
                             <div className="bg-black h-[70px] w-[70px] border border-amber-400 border-[2px] rounded-full"><HandPlatter className="text-amber-400 h-16 w-14 pl-[10px]"/></div>
@@ -182,9 +182,9 @@ export default function Services(){
                         </div>
 
                         <ArrowRight className="h-14 w-14 text-amber-400 mt-[60px] hidden lg:block"/>
-                         <ArrowDown className="h-14 w-14 text-amber-400 mt-[60px] lg:hidden block"/>
+                         <ArrowDown className="h-16 w-16 text-amber-400 mt-[25px] mb-[20px] lg:hidden block"/>
 
-                        <div className="flex flex-col gap-[13px] justify-center items-center lg:pr-[0] pr-[20px]">
+                        <div className="flex flex-col gap-[13px] justify-center items-center lg:pr-[0] ">
                             <div className="bg-black h-[70px] w-[70px] border border-amber-400 border-[2px] rounded-full"><PartyPopper className="text-amber-400 h-16 w-14 pl-[10px]"/></div>
                             <p className="font-bold text-[26px] font-[Prata]">Celebrate</p>
                             <p className="text-[16px] font-['Public_Sans'] text-center">You relax <span className="block"> & enjoy, we take </span> <span className="block">care of the rest.</span></p> 
