@@ -27,9 +27,14 @@ export default function About() {
     img: "/images/man.png",
   },
   {
+    name: "Neetu Sharma",
+    role: "Co-Founder",
+    img: "/images/woman.png",
+  },
+  {
     name: "Vaibhavi Sharma",
     role: "Manager",
-    img: "/images/woman.png",
+    img: "/images/woman2.png",
   },
   {
     name: "Vishnu",
@@ -57,7 +62,7 @@ export default function About() {
 <div className="relative h-[60vh] border border-amber-400 border-[2px] overflow-hidden">
 
   {/* Background Layer */}
-  <div className="absolute inset-0 bg-[url('/images/backG.png')] bg-contain bg-no-repeat bg-right"></div>
+  <div className="absolute inset-0 bg-[url('/images/backG.png')] bg-contain bg-no-repeat md:bg-right h-auto bg-center opacity-40 lg:opacity-100"></div>
 
   {/* Image overlay (IMPORTANT FIX) */}
   <div className="absolute inset-0 bg-white/30"></div>
@@ -103,7 +108,7 @@ export default function About() {
             <span className="h-[3px] w-[50px] sm:w-[70px] bg-amber-400"></span>
           </p>
 
-          <h1 className="font-[Prata] text-[28px] sm:text-[35px] lg:text-[40px] font-bold">
+          <h1 className="font-[Prata] text-[28px] sm:text-[35px] lg:text-[40px] font-bold text-amber-500">
             A Legacy of Taste <span className="block">and Trust</span>
           </h1>
 
@@ -152,7 +157,7 @@ export default function About() {
               <Eye className="w-10 h-10 text-black" />
             </div>
 
-            <h1 className="text-[orange] text-[24px] sm:text-[30px] font-[Prata] font-bold mt-3">
+            <h1 className="text-white text-[24px] sm:text-[30px] font-[Prata] font-bold mt-3">
               OUR VISION
             </h1>
 

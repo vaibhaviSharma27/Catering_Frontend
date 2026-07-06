@@ -9,7 +9,7 @@ export default function Menu(){
         <Top/>
 
         <div className="relative bg-[midnightblue] min-h-[60vh] leading-tight px-5 md:px-[70px] pt-[15px] overflow-hidden">
-            <div className="absolute inset-0 bg-[url('/images/menu.png')] bg-contain md:bg-right bg-center bg-no-repeat opacity-40 lg:opacity-100"></div>
+            <div className="absolute inset-0 bg-[url('/images/menu.png')] bg-contain md:bg-right h-auto bg-center bg-no-repeat opacity-40 lg:opacity-100"></div>
 
             <div className="relative">
             <p className="text-amber-400 font-['Public_Sans'] text-[17px] font-bold flex">CUSTOMED CRAFTED MENUS <div className="h-[2px] w-[60px] ml-[10px] bg-amber-400 mt-[7px]"></div></p>
