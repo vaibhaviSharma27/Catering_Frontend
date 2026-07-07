@@ -41,13 +41,13 @@ const navigator = useNavigate();
             
             {/* 2. BACKGROUND TEXTURE LAYER: Blurred mirror backdrop stretching edge-to-edge across screen bounds */}
             <img 
-              className="absolute inset-0 w-full h-full object-cover blur-xl opacity-25 scale-110 select-none pointer-events-none z-0" 
+              className="absolute inset-0 w-full min-h-[60vh] object-cover blur-xl opacity-25 scale-110 select-none pointer-events-none z-0" 
               src={slide.src} 
               alt="" 
             />
             
             {/* Dark contrast masking veil safeguarding text readability levels */}
-            <div className="absolute inset-0 bg-gradient-to-r from-black/10 via-black/40 to-black/70 z-10 pointer-events-none" />
+            <div className="absolute inset-0 w-full min-h-[60vh] bg-gradient-to-r from-black/10 via-black/40 to-black/70 z-10 pointer-events-none" />
 
             {/* ─── 🛠️ THE NEW DUAL COLUMN CONTAINER (Splits laptop layout perfectly 50/50) ─── */}
 <div className="relative z-20 w-full h-full flex flex-col lg:flex-row items-center justify-center lg:justify-between px-4 sm:px-6 lg:px-16 py-8">
@@ -55,7 +55,7 @@ const navigator = useNavigate();
               {/* 📸 LEFT half (50%): Dedicated container keeping your real mobile image perfectly uncropped */}
        <div className="w-full lg:w-1/2 h-auto lg:h-full flex justify-center items-center p-4 lg:p-6">
                 <img 
-                 className="w-[85%] max-w-[450px] h-auto object-contain rounded-md shadow-2xl border border-white/10
+                 className="w-[90%] max-w-[500px] h-auto object-contain rounded-md shadow-2xl border border-white/10
 " 
                   src={slide.src} 
                   alt={slide.title} 
