@@ -133,7 +133,7 @@ const formHandler = (e) => {
             </div>
 
         <div className="flex flex-col md:flex-row gap-[20px]">          
-         <div className="relative border border-[orange] rounded-lg h-[60px] w-[370px] mt-[15px] flex mt-[15px] pl-[15px]">
+         <div className="relative border border-[orange] rounded-lg h-[60px] w-[320px] lg:w-[370px] mt-[15px] flex mt-[15px] pl-[15px]">
              <CalendarDays className="absolute left-4 top-1/2 -translate-y-1/2 h-8 w-8 text-[orange]" />
 
             <input
@@ -143,7 +143,7 @@ const formHandler = (e) => {
             />
         </div>
 
-        <div className="flex gap-[15px] h-[60px] w-[360px] border border-[orange] rounded-[5px] mt-[15px] pl-[15px]"><Users className="h-12 w-12 text-[orange] pt-[15px] pl-[7px]" /> <input className="font-['Public_Sans'] text-[23px] bg-[rgb(253,247,241)] outline-none placeholder-[orange]" name="guestCount" type="number" placeholder="Guest Count (Approx.)" /></div>
+        <div className="flex gap-[15px] h-[60px] w-[320px] lg:w-[360px] border border-[orange] rounded-[5px] mt-[15px] pl-[15px]"><Users className="h-12 w-12 text-[orange] pt-[15px] pl-[7px]" /> <input className="font-['Public_Sans'] text-[23px] bg-[rgb(253,247,241)] outline-none placeholder-[orange]" name="guestCount" type="number" placeholder="Guest Count (Approx.)" /></div>
       
     </div>
 
