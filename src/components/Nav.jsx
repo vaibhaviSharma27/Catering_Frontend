@@ -11,10 +11,10 @@ gap-3
 sm:gap-4
 md:gap-6
 lg:gap-8
-text-[24px]
-sm:text-[28px]
-md:text-[30px]
-lg:text-[36px]
+text-[30px]
+sm:text-[32px]
+md:text-[34px]
+lg:text-[40px]
 font-['Great_Vibes']
 font-bold
 pt-[0px]

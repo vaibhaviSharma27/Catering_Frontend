@@ -93,7 +93,7 @@ const formHandler = (e) => {
             <p className="pt-[20px] font-['Public_Sans'] text-[24px]">Fill out the form below and our team will get back to you <span className="block">shortly.</span></p>
             
             
-        <div className="flex gap-[15px]">
+        <div className="flex gap-[15px] lg:flex-row flex-col">
             <div className="flex gap-[15px] h-[60px] w-full md:w-[370px] border border-[orange] rounded-[5px] mt-[15px] pl-[15px]"><User className="h-12 w-12 text-[orange] pt-[15px] pl-[7px]" /> <input className="font-['Public_Sans'] text-[23px] bg-[rgb(253,247,241)] outline-none placeholder-[orange]" name="name" type="text" placeholder="Your Name" /></div>
             <div className="flex gap-[15px] h-[60px] w-full md:w-[370px] border border-[orange] rounded-[5px] mt-[15px] pl-[15px]"><Mail className="h-12 w-12 text-[orange] pt-[15px] pl-[7px]" /> <input className="font-['Public_Sans'] text-[23px] bg-[rgb(253,247,241)] outline-none placeholder-[orange]" name="email" type="email" placeholder="Email Address" /></div>
         </div>
