@@ -24,7 +24,7 @@ const navigator = useNavigate();
 
   return (
     /* 1. FIXED HEIGHT WRAPPER: Dictates explicit canvas space boundaries underneath your top header navigation bar */
-    <div className="w-full min-h-[70vh] lg:h-[88vh] relative bg-black font-sans overflow-hidden">
+    <div className="w-full min-h-[80vh] lg:h-[88vh] relative bg-black font-sans overflow-hidden">
       
       <Swiper 
         autoplay={{ delay: 4000, disableOnInteraction: false }} 
