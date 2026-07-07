@@ -22,7 +22,7 @@ export default function () {
 
   return (
     <>
-      <main className="lg:pt-[170px] pt-[250px]">
+      <main className="lg:pt-[170px] pt-[300px]">
         <RouterProvider router={routeObj} />
         </main>
     </>
