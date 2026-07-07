@@ -200,7 +200,7 @@ const formHandler = (e) => {
     <div className="flex flex-col text-[23px] font-[cursive]">
       <p>Working Hours</p>
       <p className="text-[20px]">Mon-Sun</p>
-      <p className="text-[20px]">7:00 AM - 10:00 PM</p>
+      <p className="text-[20px]">7:00 AM - 12:00 AM</p>
     </div>
   </div>
 
